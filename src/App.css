@@ -1,4 +1,10 @@
-.App {
-  text-align: center;
+:root {
+  --branding-color: #44acd5;
+  --main-text-color: #383838;
+  --heading-font-family: "Georgia", Arial, serif;
+  --main-font-family: Arial, sans-serif;
 }
 
+.App {
+  margin: 30px;
+}

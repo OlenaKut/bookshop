@@ -1,0 +1,13 @@
+.logo {
+  font-size: 56px;
+  font-weight: 600;
+  font-family: var(--heading-font-family);
+  color: var(--main-text-color);
+}
+.logo-under-text {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-style: italic;
+  color: var(--branding-color);
+  margin: -20px 0 0 120px;
+}

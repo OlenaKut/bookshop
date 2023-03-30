@@ -1,11 +1,14 @@
-import './App.css';
+import Container from "react-bootstrap/Container";
+import HomePage from "./pages/pageHome/HomePage";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     
-    </div>
+    <Container fluid className="App">
+      <HomePage />
+    </Container>
   );
-}
+};
 
 export default App;
