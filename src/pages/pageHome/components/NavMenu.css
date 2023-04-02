@@ -1,0 +1,44 @@
+.vertical-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1db4fa;
+  color: white;
+}
+
+.vertical-menu li {
+  border-bottom: 1px solid #2895f4;
+}
+
+.vertical-menu li a {
+  display: block;
+  padding: 12px 12px 12px 8%;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+}
+
+.vertical-menu li a:hover,
+.submenu li a:hover {
+  background-color: #2895f4;
+}
+
+.submenu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  list-style-type: none;
+}
+
+.submenu li {
+  border-bottom: none;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px 10px 10px 13%;
+  text-decoration: none;
+  background-color: #1db4fa;
+}
