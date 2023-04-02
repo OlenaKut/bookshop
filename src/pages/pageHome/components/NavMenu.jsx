@@ -4,7 +4,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./NavMenu.css";
 
 function NavMenu() {
-  
   const [showDiv, setShowDiv] = useState(false);
 
   const handleClick = () => {
