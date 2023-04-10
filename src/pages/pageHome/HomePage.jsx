@@ -7,13 +7,10 @@ import Subheader from "./components/Subheader";
 
 const HomePage = () => {
   return (
-    <Container className="m-0 p-0">
+    <Container className="">
       <Header />
-
       <NavMenu />
-
       <Subheader />
-
     </Container>
   );
 };

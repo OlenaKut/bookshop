@@ -11,3 +11,6 @@
   color: var(--branding-color);
   margin: -20px 0 0 120px;
 }
+.search-form {
+  width: 25%;
+}
