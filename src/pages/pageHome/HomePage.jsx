@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import NavMenu from "./components/NavMenu";
 import "./HomePage.css";
 import Subheader from "./components/Subheader";
+import Main from "./components/Main";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Header />
       <NavMenu />
       <Subheader />
+      <Main />
     </Container>
   );
 };
