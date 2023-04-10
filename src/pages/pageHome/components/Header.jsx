@@ -8,7 +8,9 @@ import Form from 'react-bootstrap/Form';
 const Header = () => {
   return (
     <Container>
-           <Form className="d-flex search-form mb-2">
+      <Row md="auto">
+          <Col xxl="8" lg="6">
+           <Form className="d-flex search-form mb-2 w-75">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -16,19 +18,17 @@ const Header = () => {
             />
             <Button variant="outline-primary">Search</Button>
           </Form>
-      <Row>
-        <Col>
-      
-          <h1 className="logo">BookShop</h1>
+          </Col>
+        <Col lg="3" xxl="2" className="login-button"><p>Welcome,<Button variant="link" href="#" target="_blank" rel="noopener noreferrer">Guest</Button></p></Col>
+        <Col lg="3" xxl="2"><p>Shopping Cart(),<Button variant="link" href="#" target="_blank" rel="noopener noreferrer">$0.00</Button></p></Col>
+         </Row>
+   
+        <div>
+          <h1 className="logo text-center text-sm-start">BookShop</h1>
           <p className="logo-under-text">your best friend</p>
-        </Col> 
-        <Col className="" lg="2">
-          <p>Welcome,<Button variant="link" href="#" target="_blank" rel="noopener noreferrer">Guest</Button></p>
-          
-        </Col>
-        <Col lg="2"><p>Shopping Cart(),<Button variant="link" href="#" target="_blank" rel="noopener noreferrer">$0.00</Button></p></Col>
-      </Row>
-    </Container>
+        </div> 
+        
+     </Container>
   );
 };
 
