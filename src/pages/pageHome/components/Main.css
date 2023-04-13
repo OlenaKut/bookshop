@@ -1,0 +1,23 @@
+
+.card-title {
+  color: var(--branding-color);
+}
+
+.card-author {
+  color: var(--main-text-color);
+}
+
+.buy-button {
+  background: var(--main-text-color);
+  border-radius: 0;
+  color: white;
+  text-decoration: none;
+
+}
+.price-button {
+  background: var(--branding-color);
+  border-radius: 0;
+  color: white;
+  text-decoration: none;
+ 
+}
