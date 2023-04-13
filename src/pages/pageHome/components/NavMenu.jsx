@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -7,15 +7,26 @@ import "./NavMenu.css";
 
 function NavMenu() {
   const [showDiv, setShowDiv] = useState(false);
+  const [buttonClick, setButtonClick] = useState(0);
   const expand = "md";
+
+  useEffect(() => {
+    if (showDiv) {
+      return;
+    }
+  }, [buttonClick]);
 
   const handleClick = () => {
     setShowDiv(!showDiv);
+    setButtonClick(buttonClick + 1);
   };
 
   return (
     <Navbar key={expand} expand={expand}>
-      <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="toggle"/>
+      <Navbar.Toggle
+        aria-controls={`offcanvasNavbar-expand-${expand}`}
+        className="toggle"
+      />
       <Navbar.Offcanvas
         id={`offcanvasNavbar-expand-${expand}`}
         aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -29,9 +40,9 @@ function NavMenu() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#" onClick={handleClick}>
+                <p class="mb-0" onClick={handleClick}>
                   Categories <i class="bi bi-chevron-down"></i>
-                </a>
+                </p>
                 {showDiv && (
                   <ul className="submenu" style={{ display: "block" }}>
                     <li>
