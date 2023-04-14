@@ -1,7 +1,7 @@
 .toggle {
-  position: fixed;
-  top: 7%;
-  right: 5%;
+  position: absolute;
+  top: -645px;
+  right: 0;
 }
 .vertical-menu {
   list-style: none;
@@ -14,13 +14,15 @@
   border-bottom: 1px solid var(--main-text-color);
 }
 
-.vertical-menu li a {
+.vertical-menu li a,
+.vertical-menu li p {
   display: block;
   padding: 12px 12px 12px 8%;
   text-decoration: none;
-  color: var(--main-text-color);
+  color: var(--branding-color);
   font-weight: 500;
   font-size: large;
+  transition: 0.5s;
 }
 
 .vertical-menu li a:hover,

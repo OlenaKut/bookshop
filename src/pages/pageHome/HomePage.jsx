@@ -10,8 +10,8 @@ const HomePage = () => {
   return (
     <Container className="">
       <Header />
-      <NavMenu />
       <Subheader />
+      <NavMenu />
       <Main />
     </Container>
   );
