@@ -70,11 +70,11 @@ const Subheader = () => {
             <img
               src="images/caruesel3.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="slide1"
               height={400}
             />
           </div>
-          <div class="col-md-6 col-xl -4 d-none d-md-block pt-2 ps-4 pe-2 discription">
+          <div class="col-md-6 col-xl-4 d-none d-md-block pt-2 ps-4 pe-2 discription">
             <h5 className="text-center">
               The Umayyad Mosque of Damascus: Art, Faith and Empire in Early
               Islam
