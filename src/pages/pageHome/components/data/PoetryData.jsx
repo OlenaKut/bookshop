@@ -62,46 +62,56 @@ const poetry = [
 
   {
     //3
-    name: "",
-    author: "",
-    descriptionShort: "",
-    description: "",
+    name: "The Spectral Wilderness",
+    author: "Oliver Bendorf",
+    descriptionShort: "Winner of the 2013 Stan and Tom Wick Poetry Prize",
+    description:
+      "It's a joy. . .to come nearer to a realm of experience little explored in American poetry, the lives of those who are engaged in the complex project of transforming their own gender... Oliver Bendorf writes from a paradoxical, new-world position: the adult voice of a man who has just appeared in the world. A man emergent, a man in love, alive in the fluid instability of any category.",
     details: {
-      publisher: "",
-      publishDate: "",
-      pages: "",
-      dimensions: "",
+      publisher: "Kent State University Press",
+      publishDate: "January 05, 2015",
+      pages: "88",
+      dimensions: "6.47 X 0.24 X 8.31 inches | 0.29 pounds",
       language: "English",
-      type: "Hardcover",
+      type: "Paperback",
     },
-    pris: "",
-    image: "",
-    aboutTheAuthor: "",
-    reviews1: "",
-    authorReviews1: "",
-    reviews2: "",
-    authorReviews2: "",
+    pris: "$15.00",
+    image:
+      "https://images-us.bookshop.org/ingram/9781606352113.jpg?height=500&v=v2",
+    aboutTheAuthor:
+      "Oliver Bendorf was born in Iowa City. He received an MFA in poetry from the University of Wisconsin and currently lives in Madison. His poems have appeared in Blackbird, Indiana Review, jubilat, Ninth Letter, Tupelo Quarterly, and elsewhere, and anthologized in Best New Poets and Troubling the Line: Trans and Genderqueer Poetry and Poetics. He has received fellowships from Vermont Studio Center and the Lambda Literary Foundation.",
+    reviews1:
+      "Bendorf's collection indeed opens the door to a spectral wilderness, an otherworldly pastoral, a queer ecology endlessly transformed by possibility, grief, and the unruly wanting of our names and bodies. Stunningly lyrical and beautifully theoretical, The Spectral Wilderness is an invitation one cannot turn down; the book calls us to travel with Bendorf, to study the topography of becoming because what we used to be matters in the way that language matters--however fleeting, however mistaken, however contradictory it might be.",
+    authorReviews1: "--Stacey Waite, author of Butch Geography",
+    reviews2:
+      "What gorgeous and ravenous rackets Oliver Bendorf's poems are made of; what a yearning and beautiful heart. 'Lift a geode from the ground and crack me open, ' he writes, which is more or less what these poems do for me: break me open to what might sparkle and blaze, what might glisten and burn inside. The Spectral Wilderness is a wonderful book.",
+    authorReviews2:
+      "--Ross Gay, author of Against Which and Bringing the Shovel Down",
     reviews3: "",
     authorReviews3: "",
   },
 
   {
     //4
-    name: "",
-    author: "",
-    descriptionShort: "",
-    description: "",
+    name: "I Hear the World Sing",
+    author: "Jessica Jewell, Stephanie Siciarz, David Hassler",
+    descriptionShort:
+      "Shared joys and concerns across cultures and language, expressed in the poetry of children",
+    description:
+      "When school children from Kent, Ohio and Florence, Italy, were invited to express their thoughts about Where I'm From in poetry, the connections that emerged between these students from different continents were remarkable. Their responses to this prompt-lo vengo da in Italian--demonstrate the underlying importance of home, families, the natural world, and the creative identities that children harbor within them.",
     details: {
-      publisher: "",
-      publishDate: "",
-      pages: "",
+      publisher: "Kent State University Press",
+      publishDate: "September 24, 2019",
+      pages: "96",
       dimensions: "",
       language: "English",
-      type: "Hardcover",
+      type: "Paperback",
     },
-    pris: "",
-    image: "",
-    aboutTheAuthor: "",
+    pris: "$19.95",
+    image:
+      "https://images-us.bookshop.org/ingram/9781606353899.jpg?height=500&v=v2",
+    aboutTheAuthor:
+      "David Hassler, director of the Wick Poetry Center, is the author of Red Kimono, Yellow Barn, for which he was awarded Ohio Poet of the Year 2006. His nonfiction work includes the play, May 4th Voices: Kent State, 1970, and (with photographer Gary Harwood) Growing Season: The Life of a Migrant Community. Jessica Jewell is senior academic program director at the Wick Poetry Center. Her academic writing has appeared in the Journal of Comparative and International Higher Education and Inside Higher Education. Her poetry has appeared in Cider Press Review, American Poetry Journal, and Nimro, among others, and her chapbook, Slap Leather, was published by dancing girl press. Stephanie Siciarz is an author and translator. She serves as the Italian Program Coordinator in the Department of Modern and Classical Language Studies at Kent State University.",
     reviews1: "",
     authorReviews1: "",
     reviews2: "",
