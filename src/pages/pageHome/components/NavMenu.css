@@ -1,30 +1,31 @@
 .toggle {
-  position: fixed;
-  top: 7%;
-  right: 5%;
+  position: absolute;
+  top: -645px;
+  right: 0;
 }
 .vertical-menu {
   list-style: none;
   margin: 0;
-  padding: 0;
-  background-color: var(--branding-color);
 }
 
 .vertical-menu li {
   border-bottom: 1px solid var(--main-text-color);
 }
 
-.vertical-menu li a {
+.vertical-menu li a,
+.vertical-menu li p {
   display: block;
   padding: 12px 12px 12px 8%;
   text-decoration: none;
-  color: var(--main-text-color);
+  color: var(--branding-color);
   font-weight: 500;
   font-size: large;
+  transition: 0.5s;
 }
 
 .vertical-menu li a:hover,
-.submenu li a:hover {
+.submenu li a:hover,
+.vertical-menu li p:hover {
   background-color: var(--main-text-color);
   color: white;
 }
@@ -44,5 +45,4 @@
   display: block;
   padding: 10px 10px 10px 13%;
   text-decoration: none;
-  background-color: var(--branding-color);
 }
