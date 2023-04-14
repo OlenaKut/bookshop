@@ -70,7 +70,7 @@ const Subheader = () => {
             <img
               src="images/caruesel3.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="slide1"
               height={400}
             />
           </div>
