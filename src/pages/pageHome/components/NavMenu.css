@@ -6,6 +6,8 @@
 .vertical-menu {
   list-style: none;
   margin: 0;
+  padding: 0;
+  background-color: var(--branding-color);
 }
 
 .vertical-menu li {
@@ -24,8 +26,7 @@
 }
 
 .vertical-menu li a:hover,
-.submenu li a:hover,
-.vertical-menu li p:hover {
+.submenu li a:hover {
   background-color: var(--main-text-color);
   color: white;
 }
@@ -45,4 +46,5 @@
   display: block;
   padding: 10px 10px 10px 13%;
   text-decoration: none;
+  background-color: var(--branding-color);
 }
