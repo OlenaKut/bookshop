@@ -122,21 +122,25 @@ const poetry = [
 
   {
     //5
-    name: "",
-    author: "",
-    descriptionShort: "",
-    description: "",
+    name: "Inscribing My Name",
+    author: "Herbert Woodward Martin, W. D. Snodgrass",
+    descriptionShort:
+      "Visit our Events page for details about the Kent screening of the new film Jump Back, Honey: The Poetry and Performance of Herbert Woodward Martin.",
+    description:
+      "Herbert Woodward Martin's body of poetry from the past five decades is, in many ways, matched by no one else. His many poetic voices range from quiet lyrics to angry protest poems, from groundbreaking counterpoint structures to prize-winning historical narratives. His wide-ranging poetry acts as a barometer of various times and tempers in American literature. His poetry is innovative and balanced and has a special way of working within traditions even as it creates its own unique space.",
     details: {
-      publisher: "",
-      publishDate: "",
-      pages: "",
-      dimensions: "",
+      publisher: "Kent State University Press",
+      publishDate: "November 09, 2006",
+      pages: "194",
+      dimensions: "6.16 X 0.65 X 8.93 inches | 0.81 pounds",
       language: "English",
-      type: "Hardcover",
+      type: "Paperback",
     },
-    pris: "",
-    image: "",
-    aboutTheAuthor: "",
+    pris: "$18.00",
+    image:
+      "https://images-us.bookshop.org/ingram/9780873388764.jpg?height=500&v=v2",
+    aboutTheAuthor:
+      "Herbert Woodward Martin is poet-in-residence at the University of Dayton in Ohio. He has written Escape to the Promised Land (2005), A Matter of Honor (2000), and Paul Laurence Dunbar: A Singer of Songs (1980).",
     reviews1: "",
     authorReviews1: "",
     reviews2: "",
@@ -147,27 +151,34 @@ const poetry = [
 
   {
     //6
-    name: "",
-    author: "",
-    descriptionShort: "",
-    description: "",
+    name: "The Poet X",
+    author: "Elizabeth Acevedo",
+    descriptionShort:
+      "Fans of Jacqueline Woodson, Meg Medina, and Jason Reynolds will fall hard for this astonishing New York Times-bestselling novel-in-verse by an award-winning slam poet, about an Afro-Latina heroine who tells her story with blazing words and powerful truth.",
+    description:
+      "Xiomara Batista feels unheard and unable to hide in her Harlem neighborhood. Ever since her body grew into curves, she has learned to let her fists and her fierceness do the talking. But Xiomara has plenty she wants to say, and she pours all her frustration and passion onto the pages of a leather notebook, reciting the words to herself like prayers--especially after she catches feelings for a boy in her bio class named Aman, who her family can never know about.",
     details: {
-      publisher: "",
-      publishDate: "",
-      pages: "",
-      dimensions: "",
+      publisher: "Quill Tree Books",
+      publishDate: "April 07, 2020",
+      pages: "384",
+      dimensions: "5.2 X 7.9 X 1.1 inches | 0.65 pounds",
       language: "English",
-      type: "Hardcover",
+      type: "Paperback",
     },
-    pris: "",
-    image: "",
-    aboutTheAuthor: "",
-    reviews1: "",
-    authorReviews1: "",
-    reviews2: "",
-    authorReviews2: "",
-    reviews3: "",
-    authorReviews3: "",
+    pris: "$13.94",
+    image:
+      "https://images-us.bookshop.org/ingram/9780062662811.jpg?height=500&v=v2",
+    aboutTheAuthor:
+      "ELIZABETH ACEVEDO is the New York Times-bestselling author of The Poet X, which won the National Book Award for Young People's Literature, the Michael L. Printz Award, the Pura Belpré Award, the Carnegie medal, the Boston Globe-Horn Book Award, and the Walter Award. She is also the author of With the Fire on High--which was named a best book of the year by the New York Public Library, NPR, Publishers Weekly, and School Library Journal--and Clap When You Land, which was a Boston Globe-Horn Book Honor book and a Kirkus finalist. She holds a BA in Performing Arts from The George Washington University and an MFA in Creative Writing from the University of Maryland. Acevedo has been a fellow of Cave Canem, Cantomundo, and a participant in the Callaloo Writer's Workshops. She is a National Poetry Slam Champion, and resides in Washington, DC with her loves.",
+    reviews1:
+      "The force and intensity behind her words practically pushes them off the page, resulting in a verse novel that is felt as much as it is heard. This is a book from the heart, and for the heart.",
+    authorReviews1: "-- New York Times Book Review",
+    reviews2:
+      "A story that will slam the power of poetry and love back into your heart.",
+    authorReviews2: " -- Laurie Halse Anderson, author of Speak and Chains",
+    reviews3:
+      "Crackles with energy and snaps with authenticity and voice. Every poem in this stunningly addictive and deliciously rhythmic verse novel begs to be read aloud. Xiomara is a protagonist who readers will cheer for at every turn. As X might say, Acevedo's got bars. Don't pass this one by.",
+    authorReviews3: "-- Justina Ireland, author of Dread Nation",
   },
 ];
 
