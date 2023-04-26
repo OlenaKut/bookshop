@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 
 const Header = () => {
   return (
-    <Container>
+    <Container className="header">
       <Row md="auto">
           <Col xxl="8" lg="6">
            <Form className="d-flex search-form mb-2 w-75">
