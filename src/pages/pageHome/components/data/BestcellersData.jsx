@@ -2,6 +2,7 @@ const bestcellers = [
   //bestcellers
   {
     //1
+    id: 1001,
     name: "You Could Make This Place Beautiful: A Memoir",
     author: "Maggie Smith",
     descriptionShort:
@@ -36,6 +37,7 @@ const bestcellers = [
 
   {
     //2
+    id: 1002,
     name: "Hush Harbor",
     author: "Anise Vance",
     descriptionShort:
@@ -63,6 +65,7 @@ const bestcellers = [
 
   {
     //3
+    id: 1003,
     name: "A Perfect Vintage",
     author: "Chelsea Fagan",
     descriptionShort:
@@ -92,6 +95,7 @@ const bestcellers = [
 
   {
     //4
+    id: 1004,
     name: "Old Enough",
     author: "Haley Jakobson",
     descriptionShort:
@@ -124,6 +128,7 @@ const bestcellers = [
 
   {
     //5
+    id: 1005,
     name: "Hello Beautiful",
     author: "Ann Napolitano",
     descriptionShort:
@@ -158,6 +163,7 @@ const bestcellers = [
 
   {
     //6
+    id: 1006,
     name: "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
     author: "Morgan Housel",
     descriptionShort:
@@ -190,6 +196,7 @@ const bestcellers = [
 
   {
     //7
+    id: 1007,
     name: "Happy Place",
     author: "Emily Henry",
     descriptionShort:

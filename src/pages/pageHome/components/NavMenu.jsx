@@ -23,7 +23,7 @@ function NavMenu() {
   };
 
   return (
-    <Col md={3}>
+    <Col xl={2} md={3}>
       <Navbar key={expand} expand={expand}>
         <Navbar.Toggle
           aria-controls={`offcanvasNavbar-expand-${expand}`}

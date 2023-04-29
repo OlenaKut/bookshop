@@ -1,6 +1,7 @@
 const poetry = [
   {
     //1
+    id: 0701,
     name: "On This Side of the Desert",
     author: "Alfredo Aguilar",
     descriptionShort:
@@ -30,6 +31,7 @@ const poetry = [
 
   {
     //2
+    id: 0702,
     name: "A History of My Brief Body",
     author: "Billy-Ray Belcourt",
     descriptionShort:
@@ -62,6 +64,7 @@ const poetry = [
 
   {
     //3
+    id: 0703,
     name: "The Spectral Wilderness",
     author: "Oliver Bendorf",
     descriptionShort: "Winner of the 2013 Stan and Tom Wick Poetry Prize",
@@ -93,6 +96,7 @@ const poetry = [
 
   {
     //4
+    id: 0704,
     name: "I Hear the World Sing",
     author: "Jessica Jewell, Stephanie Siciarz, David Hassler",
     descriptionShort:
@@ -122,6 +126,7 @@ const poetry = [
 
   {
     //5
+    id: 0705,
     name: "Inscribing My Name",
     author: "Herbert Woodward Martin, W. D. Snodgrass",
     descriptionShort:
@@ -151,6 +156,7 @@ const poetry = [
 
   {
     //6
+    id: 0706,
     name: "The Poet X",
     author: "Elizabeth Acevedo",
     descriptionShort:

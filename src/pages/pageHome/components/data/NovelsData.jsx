@@ -1,6 +1,7 @@
 const novels = [
   {
     //1
+    id: 0801,
     name: "The Royal We",
     author: "Heather Cocks, Jessica Morgan",
     descriptionShort:
@@ -33,6 +34,7 @@ const novels = [
 
   {
     //2
+    id: 0802,
     name: "Messy",
     author: "Heather Cocks, Jessica Morgan",
     descriptionShort:
@@ -65,6 +67,7 @@ const novels = [
 
   {
     //3
+    id: 0803,
     name: "Melt with You",
     author: "Jennifer Dugan",
     descriptionShort:
@@ -93,6 +96,7 @@ const novels = [
 
   {
     //4
+    id: 0804,
     name: "Ramón and Julieta",
     author: "Alana Quintana Albertson",
     descriptionShort: "When fate and tacos bring Ramón and Julieta together on the Day of the Dead, the star-crossed pair must make a choice: accept the bitter food rivalry that drives them apart or surrender to a love that consumes them--perfect for fans of Jane the Virgin!",
@@ -118,6 +122,7 @@ const novels = [
 
   {
     //5
+    id: 0805,
     name: "Pride, Prejudice, and Other Flavors",
     author: "Sonali Dev",
     descriptionShort: "Award-winning author Sonali Dev launches a new series about the Rajes, an immigrant Indian family descended from royalty, who have built their lives in San Francisco...",
@@ -143,6 +148,7 @@ const novels = [
 
   {
     //6
+    id: 0806,
     name: "Zainab Takes New York",
     author: "Ayesha Harruna Attah",
     descriptionShort: "Zainab Sekyi is on a quest to find herself...She's moving to New York City to pursue her lifelong dream to become an illustrator, but she doesn't just want to get a job. She's also on a mission to make enough money to go on a night out, buy a whole bottle of wine (not just a glass) and, most importantly of all, to fall in love.",
