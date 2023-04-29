@@ -193,38 +193,6 @@ const bestcellers = [
     authorReviews3:
       "-- James P. O'Shaughnessy, Author, What Works on Wall Street",
   },
-
-  {
-    //7
-    id: 1007,
-    name: "Happy Place",
-    author: "Emily Henry",
-    descriptionShort:
-      "A couple who broke up months ago pretend to still be together for their annual weeklong vacation with their best friends in this glittering and wise new novel from #1 New York Times bestselling author Emily Henry.",
-    description:
-      "Harriet and Wyn have been the perfect couple since they met in college--they go together like salt and pepper, honey and tea, lobster and rolls. Except, now--for reasons they're still not discussing--they don't. They broke up five months ago. And still haven't told their best friends. Which is how they find themselves sharing a bedroom at the Maine cottage that has been their friend group's yearly getaway for the last decade. Their annual respite from the world, where for one vibrant, blissful week they leave behind their daily lives; have copious amounts of cheese, wine, and seafood; and soak up the salty coastal air with the people who understand them most.",
-    details: {
-      publisher: "Berkley Books",
-      publishDate: "April 25, 2023",
-      pages: "400",
-      dimensions: "6.34 X 9.32 X 1.33 inches | 1.31 pounds",
-      language: "English",
-      type: "Hardcover",
-    },
-    pris: " $25.11",
-    image:
-      "https://images-us.bookshop.org/ingram/9780593441275.jpg?height=500&v=v2-16b5bd356d1cec447dacb80e8d473427",
-    aboutTheAuthor:
-      "Emily Henry is the #1 New York Times bestselling author of Book Lovers, People We Meet on Vacation, and Beach Read. She studied creative writing at Hope College, and now spends most of her time in Cincinnati, Ohio, and the part of Kentucky just beneath it. Find her on Instagram @emilyhenrywrites.",
-    reviews1:
-      "Emily Henry has done it again! Happy Place is a dazzling, poignant love story about the people and places our hearts call home. Bursting with warmth and wit, this unforgettable romance is one more reason my happy place is an Emily Henry book.",
-    authorReviews1:
-      "--Carley Fortune, New York Times bestselling author of Every Summer After and Meet Me at the Lake",
-    reviews2: "",
-    authorReviews2: "",
-    reviews3: "",
-    authorReviews3: "",
-  },
 ];
 
 export default bestcellers;
