@@ -8,6 +8,7 @@ import NavMenu from "./pages/pageHome/components/NavMenu";
 import Row from "react-bootstrap/Row";
 import Subheader from "./pages/pageHome/components/Subheader";
 import Main from "./pages/pageHome/components/Main";
+import Footer from "./pages/pageHome/components/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
             <Route exact path="/" element={<HomePage />} />
           </Routes>
         </Row>
+        <Footer />
       </Container>
     </BrowserRouter>
   );

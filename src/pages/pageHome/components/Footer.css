@@ -1,0 +1,32 @@
+.footerBox {
+  background-color: var(--branding-color);
+  color: white;
+}
+.footerTitle {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+}
+.footerLink {
+  font-size: larger;
+  transition: 0.5s;
+}
+.footerLink:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+.footerBottom {
+  background-color: #50a3c4;
+  color: white;
+}
+.btnContactUs {
+  margin-top: -5px;
+  margin-right: 5px;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.btnContactUs:hover {
+  border: none;
+  background-color: transparent;
+  transform: scale(1.1);
+  opacity: 0.7;
+}
