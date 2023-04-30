@@ -29,7 +29,7 @@ const CarouselBest = () => {
                 />
                 <p className="carousel-best-pris">
                   {bestceller.pris}
-                  <sup className="carousel-best-pris-sup m-1 fs-4">
+                  <sup className="carousel-best-pris-sup m-1 fs-5">
                     {bestceller.prisSup}
                   </sup>
                 </p>
