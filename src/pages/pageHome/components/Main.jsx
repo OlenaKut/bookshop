@@ -11,7 +11,7 @@ import bestcellers from "./data/BestcellersData";
 const Main = () => {
   return (
     <Container fluid className="m-auto text-center my-5">
-      {bestcellers.map((bestceller) => {
+      {bestcellers.slice(0, 6).map((bestceller) => {
         return (
           <Row
             className="d-inline-flex justify-content-around m-4"
