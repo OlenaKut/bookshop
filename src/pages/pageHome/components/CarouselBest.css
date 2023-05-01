@@ -1,0 +1,38 @@
+.carousel-best-title {
+  font-family: var(--heading-font-family);
+  font-size: 52px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--main-text-color);
+}
+
+.carousel-best-line {
+  border-top: 7px solid rgb(191, 190, 191);
+}
+.carousel-best-container {
+  position: relative;
+  text-align: center;
+}
+
+.carousel-best-img {
+  width: 250px;
+  height: 350px;
+}
+
+.carousel-best-pris {
+  position: absolute;
+  bottom: -30px;
+  right: -5px;
+  padding: 25px 5px;
+  background: var(--branding-color);
+  color: white;
+  border-radius: 70px;
+  border: 5px solid white;
+  font-size: 36px;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px 5px white;
+}
+
+.carousel-best-author {
+  color: var(--branding-color);
+}

@@ -2,6 +2,7 @@ const horror = [
   //Horror
   {
     //1
+    id: 0601,
     name: "A Flicker in the Dark",
     author: "Stacy Willingham",
     descriptionShort:
@@ -31,6 +32,7 @@ const horror = [
 
   {
     //2
+    id: 0602,
     name: "Then She Was Gone",
     author: "Lisa Jewell ",
     descriptionShort:
@@ -62,6 +64,7 @@ const horror = [
 
   {
     //3
+    id: 0603,
     name: "The Silent Patient",
     author: "Alex Michaelides",
     descriptionShort:
@@ -94,6 +97,7 @@ const horror = [
 
   {
     //4
+    id: 0604,
     name: "The Last Party",
     author: "Clare Mackintosh ",
     descriptionShort:
@@ -126,6 +130,7 @@ const horror = [
 
   {
     //5
+    id: 0605,
     name: "The Family Game",
     author: "Catherine Steadman",
     descriptionShort:
@@ -158,6 +163,7 @@ const horror = [
 
   {
     //6
+    id: 0606,
     name: "The Turn of the Key",
     author: "Ruth Ware",
     descriptionShort:

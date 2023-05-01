@@ -1,6 +1,10 @@
-
+.image-best {
+  width: 380px;
+  height: 540px;
+}
 .card-title {
   color: var(--branding-color);
+  font-size: 24px;
 }
 
 .card-author {
@@ -9,15 +13,13 @@
 
 .buy-button {
   background: var(--main-text-color);
-  border-radius: 0;
   color: white;
+  border-radius: 0 0 0 5px;
   text-decoration: none;
-
 }
 .price-button {
   background: var(--branding-color);
-  border-radius: 0;
   color: white;
+  border-radius: 0 0 5px 0;
   text-decoration: none;
- 
 }

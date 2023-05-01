@@ -2,6 +2,7 @@ const bestcellers = [
   //bestcellers
   {
     //1
+    id: 1001,
     name: "You Could Make This Place Beautiful: A Memoir",
     author: "Maggie Smith",
     descriptionShort:
@@ -16,7 +17,8 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.04",
+    pris: "$26",
+    prisSup: "04",
     image:
       "https://images-us.bookshop.org/ingram/9781982185855.jpg?height=500&v=v2-0afdc80bbdae2386423f058442321607",
     aboutTheAuthor:
@@ -36,6 +38,7 @@ const bestcellers = [
 
   {
     //2
+    id: 1002,
     name: "Hush Harbor",
     author: "Anise Vance",
     descriptionShort:
@@ -50,7 +53,8 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$27.90",
+    pris: "$27",
+    prisSup: "90",
     image:
       "https://images-us.bookshop.org/ingram/9781335449528.jpg?height=500&v=v2-00915b98d6629bb8387a812381433881",
     aboutTheAuthor:
@@ -63,6 +67,7 @@ const bestcellers = [
 
   {
     //3
+    id: 1003,
     name: "A Perfect Vintage",
     author: "Chelsea Fagan",
     descriptionShort:
@@ -77,7 +82,8 @@ const bestcellers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$19.00",
+    pris: "$19",
+    prisSup: "00",
     image:
       "https://images-us.bookshop.org/ingram/9781662938627.jpg?height=500&v=v2-653e64d77f0b3bdac950ee7fd64d76ce",
     aboutTheAuthor:
@@ -92,6 +98,7 @@ const bestcellers = [
 
   {
     //4
+    id: 1004,
     name: "Old Enough",
     author: "Haley Jakobson",
     descriptionShort:
@@ -106,7 +113,8 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$25.11",
+    pris: "$25",
+    prisSup: "11",
     image:
       "https://images-us.bookshop.org/ingram/9780593473009.jpg?height=500&v=v2-1cd2acab0255a5b96d27d48dc4cb14cb",
     aboutTheAuthor:
@@ -124,6 +132,7 @@ const bestcellers = [
 
   {
     //5
+    id: 1005,
     name: "Hello Beautiful",
     author: "Ann Napolitano",
     descriptionShort:
@@ -138,7 +147,8 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.04",
+    pris: "$26",
+    prisSup: "04",
     image:
       "https://images-us.bookshop.org/ingram/9780593243732.jpg?height=500&v=v2-858b95806c09b27d6279304493d3f59e",
     aboutTheAuthor:
@@ -158,6 +168,7 @@ const bestcellers = [
 
   {
     //6
+    id: 1006,
     name: "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
     author: "Morgan Housel",
     descriptionShort:
@@ -172,7 +183,8 @@ const bestcellers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$18.59",
+    pris: "$18",
+    prisSup: "59",
     image:
       "https://images-us.bookshop.org/ingram/9780857197689.jpg?height=500&v=v2-619abd7660bedb152dc76451bd5d9f80",
     aboutTheAuthor:
@@ -187,34 +199,66 @@ const bestcellers = [
     authorReviews3:
       "-- James P. O'Shaughnessy, Author, What Works on Wall Street",
   },
-
   {
     //7
-    name: "Happy Place",
-    author: "Emily Henry",
+    id: 1007,
+    name: "Why We Love Middle-Earth: An Enthusiast's Book about Tolkien, Middle-Earth & the Lotr Fandom",
+    author: "Alan Sisto, Shawn E. Marchese",
     descriptionShort:
-      "A couple who broke up months ago pretend to still be together for their annual weeklong vacation with their best friends in this glittering and wise new novel from #1 New York Times bestselling author Emily Henry.",
+      "For Fans of the Tales of Tolkien, Middle-earth, and More Learn about the man who wrote The Lord of the Rings in this Middle-earth treasury. Full of answers to common questions asked by readers to learn about Middle-earth and the fandom, this book about Tolkien celebrates Why We Love Middle-earth.",
     description:
-      "Harriet and Wyn have been the perfect couple since they met in college--they go together like salt and pepper, honey and tea, lobster and rolls. Except, now--for reasons they're still not discussing--they don't. They broke up five months ago. And still haven't told their best friends. Which is how they find themselves sharing a bedroom at the Maine cottage that has been their friend group's yearly getaway for the last decade. Their annual respite from the world, where for one vibrant, blissful week they leave behind their daily lives; have copious amounts of cheese, wine, and seafood; and soak up the salty coastal air with the people who understand them most.",
+      "The Lord of the Rings omnibus for all. Who wrote The Lord of the Rings? What details are in the movies, books, maps, and other stories--and how do they tie together? Intrigued by Amazon's new show The Lord of the Rings: The Rings of Power? What's considered canon and what isn't? Dive into Middle-earth's expansive lore with Why We Love Middle-earth, a fandom book about Tolkien's work. The perfect companion for any Middle-earth traveler. Written by beloved Tolkien commenters of The Prancing Pony Podcast, Shawn E. Marchese and Alan Sisto, Why We Love Middle-earth is the ultimate guide to the fandom. Newcomers and existing fans of Tolkien will revel in the dragon's hoard of information inside.",
     details: {
-      publisher: "Berkley Books",
-      publishDate: "April 25, 2023",
-      pages: "400",
-      dimensions: "6.34 X 9.32 X 1.33 inches | 1.31 pounds",
+      publisher: "Mango",
+      publishDate: "September 12, 2023",
+      pages: "256",
+      dimensions: "0.0 X 0.0 X 0.0 inches | 0.0 pounds",
       language: "English",
-      type: "Hardcover",
+      type: "Paperback",
     },
-    pris: " $25.11",
+    pris: "$18",
+    prisSup: "05",
     image:
-      "https://images-us.bookshop.org/ingram/9780593441275.jpg?height=500&v=v2-16b5bd356d1cec447dacb80e8d473427",
+      "https://images-us.bookshop.org/ingram/9781684812097.jpg?height=500&v=v2-d2d8d95631a246a02701a45ef647ba68",
     aboutTheAuthor:
-      "Emily Henry is the #1 New York Times bestselling author of Book Lovers, People We Meet on Vacation, and Beach Read. She studied creative writing at Hope College, and now spends most of her time in Cincinnati, Ohio, and the part of Kentucky just beneath it. Find her on Instagram @emilyhenrywrites.",
-    reviews1:
-      "Emily Henry has done it again! Happy Place is a dazzling, poignant love story about the people and places our hearts call home. Bursting with warmth and wit, this unforgettable romance is one more reason my happy place is an Emily Henry book.",
-    authorReviews1:
-      "--Carley Fortune, New York Times bestselling author of Every Summer After and Meet Me at the Lake",
+      "Alan Sisto has been reading Tolkien since the Rankin & Bass animated Hobbit came out before he was born. Or right after. An all-around Tolkien nerd, Alan can be found enjoying Tolkien's lesser-known works--'Leaf by Niggle' is his favorite--just as often as he gets lost in First Age histories and Third Age adventures. Alan has worked with Shawn for nearly six years to grow The Prancing Pony Podcast each season, and spends much of his working time producing the show. He also provides narration and commercial voiceovers (alansisto.com) and has also been an architectural photographer for 15 years (freshpageimages.com). His wife and two children give him the freedom to indulge his inner nerd. Shawn E. Marchese went down the hobbit hole in his teens after finding a reference to Tolkien in a book about Pink Floyd, and has been in love with Middle-earth (and progressive rock) ever since. He's especially drawn to the linguistic aspects of Tolkien's work, and shares his obsession for languages with listeners every week as The Prancing Pony Podcast's resident word-nerd. Shawn met Alan seven years ago in a Facebook group for Tolkien fans, and still remembers the day he casually agreed to do a podcast with him 'like, maybe once a month'. When not working on the podcast, Shawn can be found at his day job as a compliance officer, writing, brewing ales, or working on his geeky dad credentials with his wife and two children. The Prancing Pony Podcast was the winner of the Tolkien Society 2020 Award for Best Online Content.",
+    reviews1: "",
+    authorReviews1: "",
     reviews2: "",
     authorReviews2: "",
+    reviews3: "",
+    authorReviews3: "",
+  },
+
+  {
+    //8
+    id: 1008,
+    name: "The Two Towers: Being the Second Part of the Lord of the Rings",
+    author: "J. R. R. Tolkien",
+    descriptionShort:
+      "The Lord of the Rings saga continues in The Two Towers, the second volume in J.R.R. Tolkien's epic adventure. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+    description:
+      "Frodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They have lost the wizard, Gandalf, in a battle in the Mines of Moria. And Boromir, seduced by the power of the Ring, tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked by Orcs. Now they continue the journey alone down the great River Anduin--alone, that is, save for the mysterious creeping figure that follows wherever they go.",
+    details: {
+      publisher: "William Morrow & Company",
+      publishDate: "September 18, 2012",
+      pages: "352",
+      dimensions: "5.53 X 8.26 X 0.81 inches | 0.66 pounds",
+      language: "English",
+      type: "Paperback",
+    },
+    pris: "$16",
+    prisSup: "73",
+    image:
+      "https://images-us.bookshop.org/ingram/9780547928203.jpg?height=500&v=v2",
+    aboutTheAuthor:
+      "J.R.R. TOLKIEN (1892-1973) is the creator of Middle-earth and author of such classic and extraordinary works of fiction as The Hobbit, The Lord of the Rings, and The Silmarillion. His books have been translated into more than fifty languages and have sold many millions of copies worldwide.",
+    reviews1:
+      "The author has intimate access to an epic tradition of Germanic history, civilized by the gentler genius of modern England.",
+    authorReviews1: "- The New York Times",
+    reviews2:
+      "Among the greatest works of imaginative fiction of the twentieth century. The book presents us with the richest profusion of new lands and new creatures, from the beauty of Lothlorien to the horror of Mordor, adventures to hold us spell-bound, and words of beauty and evocation to bring all vividly before us.",
+    authorReviews2: "- Sunday Telegraph",
     reviews3: "",
     authorReviews3: "",
   },
