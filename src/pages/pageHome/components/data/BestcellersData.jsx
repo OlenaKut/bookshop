@@ -71,9 +71,9 @@ const bestcellers = [
     name: "A Perfect Vintage",
     author: "Chelsea Fagan",
     descriptionShort:
-      "Lea Mortimer has everything under control. As a highly sought-after consultant specializing in transforming dilapidated French country estates into boutique hotels, she relishes her freedom as a single, childfree woman. And her life is full, occupied as much by her impeccable historic renovations as by the aristocratic -- and often exhausting -- French families she works for.",
+      "Lea Mortimer has everything under control. As a highly sought-after consultant specializing in transforming dilapidated French country estates into boutique hotels, she relishes her freedom as a single, childfree woman.",
     description:
-      "But after the heated divorce of her closest friend and cousin Stephanie Bryce, Lea finds herself taking Stephanie and her college-aged daughter to the Loire Valley in France for the summer. As they tag along for Lea's latest work assignment, despite their best intentions, they threaten to complicate the tightrope act of launching the hotel on time. And when Lea unexpectedly falls for the much-younger son of her boss, she quickly learns the beauty and danger of losing control.",
+      "And her life is full, occupied as much by her impeccable historic renovations as by the aristocratic - and often exhausting - French families she works for. But after the heated divorce of her closest friend and cousin Stephanie Bryce, Lea finds herself taking Stephanie and her college-aged daughter to the Loire Valley in France for the summer. As they tag along for Lea's latest work assignment, despite their best intentions, they threaten to complicate the tightrope act of launching the hotel on time. And when Lea unexpectedly falls for the much-younger son of her boss, she quickly learns the beauty and danger of losing control.",
     details: {
       publisher: "Orsay Press",
       publishDate: "June 06, 2023",
@@ -102,9 +102,9 @@ const bestcellers = [
     name: "Old Enough",
     author: "Haley Jakobson",
     descriptionShort:
-      "Savannah Henry is almost the person she wants to be, or at least she's getting closer. It's the second semester of her sophomore year. She's finally come out as bisexual, is making friends with the other queers in her dorm, and has just about recovered from her disastrous first queer situationship. She is cautiously optimistic that her life is about to begin.",
+      "Savannah Henry is almost the person she wants to be, or at least she's getting closer. It's the second semester of her sophomore year. She's finally come out as bisexual, is making friends with the other queers in her dorm, and has just about recovered from her disastrous first queer situationship.",
     description:
-      "But when she learns that Izzie, her best friend from childhood, has gotten engaged, Sav faces a crisis of confidence. Things with Izzie haven't been the same since what happened between Sav and Izzie's older brother when they were sixteen. Now, with the wedding around the corner, Sav is forced to reckon with trauma she thought she could put behind her.",
+      "She is cautiously optimistic that her life is about to begin. But when she learns that Izzie, her best friend from childhood, has gotten engaged, Sav faces a crisis of confidence. Things with Izzie haven't been the same since what happened between Sav and Izzie's older brother when they were sixteen. Now, with the wedding around the corner, Sav is forced to reckon with trauma she thought she could put behind her.",
     details: {
       publisher: "Dutton",
       publishDate: "June 20, 2023",
@@ -136,9 +136,9 @@ const bestcellers = [
     name: "Hello Beautiful",
     author: "Ann Napolitano",
     descriptionShort:
-      "William Waters grew up in a house silenced by tragedy, where his parents could hardly bear to look at him, much less love him--so when he meets the spirited and ambitious Julia Padavano in his freshman year of college, it's as if the world has lit up around him. With Julia comes her family, as she and her three sisters are inseparable: Sylvie, the family's dreamer, is happiest with her nose in a book; Cecelia is a free-spirited artist; and Emeline patiently takes care of them all.",
+      "William Waters grew up in a house silenced by tragedy, where his parents could hardly bear to look at him, much less love him - so when he meets the spirited and ambitious Julia Padavano in his freshman year of college, it's as if the world has lit up around him.",
     description:
-      "With the Padavanos, William experiences a newfound contentment; every moment in their house is filled with loving chaos. But then darkness from William's past surfaces, jeopardizing not only Julia's carefully orchestrated plans for their future, but the sisters' unshakeable devotion to one another. The result is a catastrophic family rift that changes their lives for generations. Will the loyalty that once rooted them be strong enough to draw them back together when it matters most?",
+      "With Julia comes her family, as she and her three sisters are inseparable: Sylvie, the family's dreamer, is happiest with her nose in a book; Cecelia is a free-spirited artist; and Emeline patiently takes care of them all. With the Padavanos, William experiences a newfound contentment; every moment in their house is filled with loving chaos. But then darkness from William's past surfaces, jeopardizing not only Julia's carefully orchestrated plans for their future, but the sisters' unshakeable devotion to one another. The result is a catastrophic family rift that changes their lives for generations. Will the loyalty that once rooted them be strong enough to draw them back together when it matters most?",
     details: {
       publisher: "Dial Press",
       publishDate: "March 14, 2023",

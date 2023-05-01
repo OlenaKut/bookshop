@@ -18,10 +18,7 @@ const Main = () => {
             xs="auto"
             key={bestceller.id}
           >
-            <Card
-              className="card-main p-0 d-flex mb-3"
-              style={{ width: "24rem", height: "56rem" }}
-            >
+            <Card className="card-main p-0 d-flex mb-3">
               <Card.Img
                 variant="top"
                 src={bestceller.image}
