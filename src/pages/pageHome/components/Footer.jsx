@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import "./Footer.css";
 import ContactForm from "./ContactForm";
 import SocialMedia from "./SocialMedia";
+import Subscribe from "./Subscribe";
 
 const Footer = () => {
   const [showContactForm, setShowContactForm] = useState(false);
@@ -58,6 +59,7 @@ const Footer = () => {
         </Col>
         <Col sm={6} lg={4} className="">
           <h3 className="footerTitle p-2">Newsletter</h3>
+          <Subscribe />
         </Col>
       </Row>
       <Row className="footerBottom p-3 text-center">
