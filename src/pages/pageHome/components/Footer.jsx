@@ -29,7 +29,7 @@ const Footer = () => {
           <h3 className="footerTitle p-2">Contacts</h3>
           <p>
             Thanks for reaching out to Bookshop. In order to ensure you receive
-            a quick reply, please fill out our
+            a quick reply, please fill out our{" "}
             <span>
               <Button className="btnContactUs p-0" onClick={handleClick}>
                 Contact Us

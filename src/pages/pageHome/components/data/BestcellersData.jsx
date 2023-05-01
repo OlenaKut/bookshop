@@ -3,7 +3,7 @@ const bestcellers = [
   {
     //1
     id: 1001,
-    name: "You Could Make This Place Beautiful: A Memoir",
+    name: "You Could Make This Place Beautiful",
     author: "Maggie Smith",
     descriptionShort:
       "In her memoir You Could Make This Place Beautiful, poet Maggie Smith explores the disintegration of her marriage and her renewed commitment to herself in lyrical vignettes that shine, hard and clear as jewels.",
@@ -169,7 +169,7 @@ const bestcellers = [
   {
     //6
     id: 1006,
-    name: "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+    name: "The Psychology of Money",
     author: "Morgan Housel",
     descriptionShort:
       "Doing well with money isn't necessarily about what you know. It's about how you behave. And behavior is hard to teach, even to really smart people.",
@@ -202,7 +202,7 @@ const bestcellers = [
   {
     //7
     id: 1007,
-    name: "Why We Love Middle-Earth: An Enthusiast's Book about Tolkien, Middle-Earth & the Lotr Fandom",
+    name: "Why We Love Middle-Earth",
     author: "Alan Sisto, Shawn E. Marchese",
     descriptionShort:
       "For Fans of the Tales of Tolkien, Middle-earth, and More Learn about the man who wrote The Lord of the Rings in this Middle-earth treasury. Full of answers to common questions asked by readers to learn about Middle-earth and the fandom, this book about Tolkien celebrates Why We Love Middle-earth.",
@@ -233,7 +233,7 @@ const bestcellers = [
   {
     //8
     id: 1008,
-    name: "The Two Towers: Being the Second Part of the Lord of the Rings",
+    name: "The Two Towers",
     author: "J. R. R. Tolkien",
     descriptionShort:
       "The Lord of the Rings saga continues in The Two Towers, the second volume in J.R.R. Tolkien's epic adventure. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",

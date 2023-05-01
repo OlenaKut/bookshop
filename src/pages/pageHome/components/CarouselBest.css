@@ -33,6 +33,84 @@
   box-shadow: 5px 5px 5px 5px white;
 }
 
+.carousel-best-pris-sup {
+  font-size: 20px;
+}
+
 .carousel-best-author {
   color: var(--branding-color);
+}
+
+@media (max-width: 1400px) {
+  .carousel-best-title {
+    font-size: 44px;
+  }
+
+  .carousel-best-img {
+    width: 200px;
+    height: 300px;
+  }
+  .carousel-best-pris {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1200px) {
+  .carousel-best-title {
+    font-size: 36px;
+  }
+
+  .carousel-best-img {
+    width: 150px;
+    height: 220px;
+  }
+  .carousel-best-pris {
+    padding: 18px 5px;
+    font-size: 18px;
+  }
+
+  .carousel-best-pris-sup {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-best-title {
+    font-size: 52px;
+  }
+
+  .carousel-best-img {
+    width: 250px;
+    height: 350px;
+  }
+  .carousel-best-pris {
+    bottom: -30px;
+    right: 70px;
+    padding: 22px 5px;
+    font-size: 32px;
+  }
+
+  .carousel-best-pris-sup {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-best-title {
+    font-size: 44px;
+  }
+
+  .carousel-best-img {
+    width: 250px;
+    height: 350px;
+  }
+  .carousel-best-pris {
+    bottom: -40px;
+    right: 7px;
+    padding: 22px 5px;
+    font-size: 24px;
+  }
+
+  .carousel-best-pris-sup {
+    font-size: 18px;
+  }
 }

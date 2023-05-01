@@ -6,13 +6,15 @@ import Container from "react-bootstrap/Container";
 
 const CarouselBest = () => {
   return (
-    <Container className="m-auto mb-5">
+    <Container className="m-auto mb-5 p-0">
       <h1 className="mx-5 mt-5 carousel-best-title">Best Sellers</h1>
       <hr className="carousel-best-line mb-5" />
       <Carousel
+        cols-md={2}
+        cols-xl={3}
         cols={4}
         rows={1}
-        gap={0}
+        gap={12}
         loop
         autoplay={4000}
         mobileBreakpoint={768}
@@ -29,7 +31,7 @@ const CarouselBest = () => {
                 />
                 <p className="carousel-best-pris">
                   {bestceller.pris}
-                  <sup className="carousel-best-pris-sup m-1 fs-5">
+                  <sup className="carousel-best-pris-sup m-1">
                     {bestceller.prisSup}
                   </sup>
                 </p>
