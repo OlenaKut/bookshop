@@ -5,13 +5,15 @@ import Header from "./pages/pageHome/components/Header";
 import NavMenu from "./pages/pageHome/components/NavMenu";
 import Row from "react-bootstrap/Row";
 import Subheader from "./pages/pageHome/components/Subheader";
+import Cookies from "./pages/pageHome/components/Cookies";
 
-import Main from "./pages/pageHome/components/Main";
+//import Main from "./pages/pageHome/components/Main";
 import Footer from "./pages/pageHome/components/Footer";
+
+import posthog from "posthog-js";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 
 const App = () => {
   return (
@@ -27,6 +29,12 @@ const App = () => {
             <Route exact path="/" element={<HomePage />} />
           </Routes>
         </Row>
+
+        {posthog.has_opted_out_capturing() ||
+        posthog.has_opted_in_capturing() ? null : (
+          <Cookies />
+        )}
+        
         <Footer />
       </Container>
     </BrowserRouter>
