@@ -6,8 +6,6 @@ import NavMenu from "./pages/pageHome/components/NavMenu";
 import Row from "react-bootstrap/Row";
 import Subheader from "./pages/pageHome/components/Subheader";
 import Cookies from "./pages/pageHome/components/Cookies";
-
-//import Main from "./pages/pageHome/components/Main";
 import Footer from "./pages/pageHome/components/Footer";
 
 import posthog from "posthog-js";
