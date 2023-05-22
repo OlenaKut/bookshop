@@ -12,7 +12,7 @@ const Footer = () => {
   const [showContactForm, setShowContactForm] = useState(false);
   const [buttonClick, setButtonClick] = useState(0);
 
-  useEffect(() => {
+   useEffect(() => {
     if (showContactForm) {
       return;
     }
