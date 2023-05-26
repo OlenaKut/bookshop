@@ -1,7 +1,7 @@
 const comics = [
   {
     //1
-    id: 0501,
+    id: 10501,
     name: "The Me You Love in the Dark, Volume 1",
     author: "Skottie Young, Jorge Corona ",
     descriptionShort:
@@ -31,7 +31,7 @@ const comics = [
 
   {
     //2
-    id: 0502,
+    id: 10502,
     name: "Nocterra, Volume 1: Full Throttle Dark",
     author: "Scott Snyder",
     descriptionShort:
@@ -62,7 +62,7 @@ const comics = [
 
   {
     //3
-    id: 0503,
+    id: 10503,
     name: "Nocterra, Volume 2: Pedal to the Metal",
     author: "Scott Snyder",
     descriptionShort:
@@ -92,7 +92,7 @@ const comics = [
 
   {
     //4
-    id: 0504,
+    id: 10504,
     name: "Step by Bloody Step",
     author: "Si Spurrier",
     descriptionShort:
@@ -125,7 +125,7 @@ const comics = [
 
   {
     //5
-    id: 0505,
+    id: 10505,
     name: "Redlands Volume 1",
     author: "Jordie Bellaire, Vanesa Del Rey",
     descriptionShort:
@@ -158,7 +158,7 @@ const comics = [
 
   {
     //6
-    id: 0506,
+    id: 10506,
     name: "La Mano del Destino",
     author: "J Gonzo",
     descriptionShort:

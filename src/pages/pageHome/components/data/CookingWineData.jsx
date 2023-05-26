@@ -1,7 +1,7 @@
 const cooking = [
   {
     //1
-    id: 0101,
+    id: 10101,
     name: "The Artful Pie Project: A Sweet and Savoury Book of Recipes",
     author: "Denise Marchessault,  Deb Garlick",
     descriptionShort:
@@ -31,7 +31,7 @@ const cooking = [
 
   {
     //2
-    id: 0102,
+    id: 10102,
     name: "Pastry Love: A Baker's Journal of Favorite Recipes",
     author: "Joanne Chang",
     descriptionShort:
@@ -66,7 +66,7 @@ const cooking = [
 
   {
     //3
-    id: 0103,
+    id: 10103,
     name: "The Complete Baking Book for Young Chefs: 100+ Sweet and Savory Recipes That You'll Love to Bake, Share and Eat!",
     author: "America's Test Kitchen Kids",
     descriptionShort:
@@ -96,7 +96,7 @@ const cooking = [
 
   {
     //4
-    id: 0104,
+    id: 10104,
     name: "Happiness Is Baking: Cakes, Pies, Tarts, Muffins, Brownies, Cookies: Favorite Desserts from the Queen of Cake",
     author: "Maida Heatter, Dorie Greenspan",
     descriptionShort:
@@ -129,7 +129,7 @@ const cooking = [
 
   {
     //5
-    id: 0105,
+    id: 10105,
     name: "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza [A Cookbook]",
     author: "Ken Forkish",
     descriptionShort:
@@ -162,7 +162,7 @@ const cooking = [
 
   {
     //6
-    id: 0106,
+    id: 10106,
     name: "Tartine: A Classic Revisited68 All-New Recipes + 55 Updated Favorites",
     author: "Chad Robertson, Elisabeth Prueitt",
     descriptionShort:

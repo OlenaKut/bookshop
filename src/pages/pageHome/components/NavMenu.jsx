@@ -39,7 +39,7 @@ function NavMenu() {
             <Col className="pt-3">
               <ul className="vertical-menu">
                 <li>
-                  <NavLink href="#">Home</NavLink>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
                   <p class="mb-0" onClick={handleClick}>
@@ -48,31 +48,31 @@ function NavMenu() {
                   {showDiv && (
                     <ul className="submenu" style={{ display: "block" }}>
                       <li>
-                        <NavLink href="#">Cooking&Wine</NavLink>
+                        <NavLink to="/cookingWine">Cooking&Wine</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Kids books</NavLink>
+                        <NavLink to="/kidsBooks">Kids books</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Fantasy</NavLink>
+                        <NavLink to="/fantasy">Fantasy</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Historical fiction</NavLink>
+                        <NavLink to="/historicalFiction">Historical fiction</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Comics</NavLink>
+                        <NavLink to="/comics">Comics</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Horror</NavLink>
+                        <NavLink to="/horror">Horror</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Poetry</NavLink>
+                        <NavLink to="/poetry">Poetry</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Novels</NavLink>
+                        <NavLink to="/novels">Novels</NavLink>
                       </li>
                       <li>
-                        <NavLink href="#">Thrillers&Crime</NavLink>
+                        <NavLink to="/thrillers">Thrillers&Crime</NavLink>
                       </li>
                     </ul>
                   )}

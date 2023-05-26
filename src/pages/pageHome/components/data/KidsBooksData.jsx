@@ -1,7 +1,7 @@
 const kidsBooks = [
   {
     //1
-    id: 0201,
+    id: 10201,
     name: "Bo the Brave",
     author: "Bethan Woollvin",
     descriptionShort:
@@ -33,7 +33,7 @@ const kidsBooks = [
 
   {
     //2
-    id: 0202,
+    id: 10202,
     name: "Dear Girl,: A Celebration of Wonderful, Smart, Beautiful You!",
     author: "Paris Rosenthal, Amy Krouse Rosenthal",
     descriptionShort:
@@ -66,7 +66,7 @@ const kidsBooks = [
 
   {
     //3
-    id: 0203,
+    id: 10203,
     name: "The Three Ninja Pigs",
     author: "Corey Rosen Schwartz",
     descriptionShort:
@@ -99,7 +99,7 @@ const kidsBooks = [
 
   {
     //4
-    id: 0204,
+    id: 10204,
     name: "Sonic the Hedgehog, Vol. 1: Fallout!",
     author: "Ian Flynn",
     descriptionShort:
@@ -130,7 +130,7 @@ const kidsBooks = [
 
   {
     //5
-    id: 0205,
+    id: 10205,
     name: "Stand Tall, Molly Lou Melon",
     author: "Patty Lovell, David Catrow",
     descriptionShort:
@@ -163,7 +163,7 @@ const kidsBooks = [
 
   {
     //6
-    id: 0206,
+    id: 10206,
     name: "When Grandma Gives You a Lemon Tree",
     author: "Jamie L. B. Deenihan",
     descriptionShort:
