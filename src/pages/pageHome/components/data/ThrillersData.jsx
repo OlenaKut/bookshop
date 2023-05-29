@@ -1,7 +1,7 @@
 const thrillers = [
   {
     //1
-    id: 0901,
+    id: 10901,
     name: "The Wicked Boy: An Infamous Murder in Victorian London",
     author: "Kate Summerscale ",
     descriptionShort:
@@ -33,7 +33,7 @@ const thrillers = [
 
   {
     //2
-    id: 0902,
+    id: 10902,
     name: "Tell Me Everything: The Story of a Private Investigation",
     author: "Erika Krouse",
     descriptionShort:
@@ -63,7 +63,7 @@ const thrillers = [
 
   {
     //3
-    id: 0903,
+    id: 10903,
     name: "Barren",
     author: "Jj Savaunt",
     descriptionShort:
@@ -93,7 +93,7 @@ const thrillers = [
 
   {
     //4
-    id: 0904,
+    id: 10904,
     name: "The Secret Place",
     author: "Tana French",
     descriptionShort:
@@ -125,7 +125,7 @@ const thrillers = [
 
   {
     //5
-    id: 0905,
+    id: 10905,
     name: "Black Chalk",
     author: "Christopher J Yates",
     descriptionShort:
@@ -158,7 +158,7 @@ const thrillers = [
 
   {
     //6
-    id: 0906,
+    id: 10906,
     name: "Ninth House",
     author: "Leigh Bardugo",
     descriptionShort:

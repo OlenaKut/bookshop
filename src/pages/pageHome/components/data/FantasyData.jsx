@@ -1,7 +1,7 @@
 const fantasy = [
   {
     //1
-    id: 0301,
+    id: 10301,
     name: "Philosophy of Tolkien: The Worldview Behind the Lord of the Rings",
     author: "Peter Kreeft",
     descriptionShort:
@@ -32,7 +32,7 @@ const fantasy = [
 
   {
     //2
-    id: 0302,
+    id: 10302,
     name: "The Lord of the Rings(tm) Tarot Deck and Guide",
     author: "Casey Gilly",
     descriptionShort:
@@ -62,7 +62,7 @@ const fantasy = [
 
   {
     //3
-    id: 0303,
+    id: 10303,
     name: "The Two Towers: Being the Second Part of the Lord of the Rings",
     author: "J. R. R. Tolkien",
     descriptionShort:
@@ -94,7 +94,7 @@ const fantasy = [
 
   {
     //4
-    id: 0304,
+    id: 10304,
     name: "The Return of the King, 3: Being the Third Part of the Lord of the Rings",
     author: "J. R. R. Tolkien",
     descriptionShort:
@@ -126,7 +126,7 @@ const fantasy = [
 
   {
     //5
-    id: 0305,
+    id: 10305,
     name: "The Fellowship of the Ring: Being the First Part of the Lord of the Rings",
     author: "J. R. R. Tolkien",
     descriptionShort:
@@ -157,7 +157,7 @@ const fantasy = [
 
   {
     //6
-    id: 0306,
+    id: 10306,
     name: "Why We Love Middle-Earth: An Enthusiast's Book about Tolkien, Middle-Earth & the Lotr Fandom",
     author: "Alan Sisto, Shawn E. Marchese",
     descriptionShort:

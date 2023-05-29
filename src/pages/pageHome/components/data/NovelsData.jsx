@@ -1,7 +1,7 @@
 const novels = [
   {
     //1
-    id: 0801,
+    id: 10801,
     name: "The Royal We",
     author: "Heather Cocks, Jessica Morgan",
     descriptionShort:
@@ -34,7 +34,7 @@ const novels = [
 
   {
     //2
-    id: 0802,
+    id: 10802,
     name: "Messy",
     author: "Heather Cocks, Jessica Morgan",
     descriptionShort:
@@ -67,7 +67,7 @@ const novels = [
 
   {
     //3
-    id: 0803,
+    id: 10803,
     name: "Melt with You",
     author: "Jennifer Dugan",
     descriptionShort:
@@ -85,7 +85,7 @@ const novels = [
     pris: "$16.73",
     image:
       "https://images-us.bookshop.org/ingram/9780593112564.jpg?height=500&v=v2-6b97a15a141839785a16b93bf6703b27",
-    aboutTheAuthor: "Jennifer Dugan is a writer, a geek, and a romantic who writes the kinds of stories she wishes she'd had growing up. She is the author of the novels Some Girls Do, Verona Comics, and Hot Dog Girl, which was called a great fizzy rom-com by Entertainment Weekly and "one of the best reads of the year, hands down" by Paste magazine. The writer/creator of two indie comics, she lives in upstate New York with her family, her dogs, her beloved bearded dragon, and an evil cat that is no doubt planning to take over the world. You can visit Jennifer at JLDugan.com or follow her on Twitter and Instagram @JL_Dugan.",
+    aboutTheAuthor: "Jennifer Dugan is a writer, a geek, and a romantic who writes the kinds of stories she wishes she'd had growing up. She is the author of the novels Some Girls Do, Verona Comics, and Hot Dog Girl, which was called a great fizzy rom-com by Entertainment Weekly and 'one of the best reads of the year, hands down' by Paste magazine. The writer/creator of two indie comics, she lives in upstate New York with her family, her dogs, her beloved bearded dragon, and an evil cat that is no doubt planning to take over the world. You can visit Jennifer at JLDugan.com or follow her on Twitter and Instagram @JL_Dugan.",
     reviews1: "Ideal for romantics and foodies alike.",
     authorReviews1: "--Booklist",
     reviews2: "A truly wonderful and joyous book.",
@@ -96,7 +96,7 @@ const novels = [
 
   {
     //4
-    id: 0804,
+    id: 10804,
     name: "Ramón and Julieta",
     author: "Alana Quintana Albertson",
     descriptionShort: "When fate and tacos bring Ramón and Julieta together on the Day of the Dead, the star-crossed pair must make a choice: accept the bitter food rivalry that drives them apart or surrender to a love that consumes them--perfect for fans of Jane the Virgin!",
@@ -122,7 +122,7 @@ const novels = [
 
   {
     //5
-    id: 0805,
+    id: 10805,
     name: "Pride, Prejudice, and Other Flavors",
     author: "Sonali Dev",
     descriptionShort: "Award-winning author Sonali Dev launches a new series about the Rajes, an immigrant Indian family descended from royalty, who have built their lives in San Francisco...",
@@ -148,7 +148,7 @@ const novels = [
 
   {
     //6
-    id: 0806,
+    id: 10806,
     name: "Zainab Takes New York",
     author: "Ayesha Harruna Attah",
     descriptionShort: "Zainab Sekyi is on a quest to find herself...She's moving to New York City to pursue her lifelong dream to become an illustrator, but she doesn't just want to get a job. She's also on a mission to make enough money to go on a night out, buy a whole bottle of wine (not just a glass) and, most importantly of all, to fall in love.",
