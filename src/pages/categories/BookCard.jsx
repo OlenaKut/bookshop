@@ -9,7 +9,7 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    top: "5%",
+    top: "8%",
     left: "20%",
     right: "5%",
     bottom: "5%",
@@ -48,7 +48,7 @@ const BookCard = ({
   return (
     <Col sm="auto" className="col-xxl-4 col-xl-4 col-lg-6 m-auto">
       <Card
-        className="card-main pt-3 ps-0 pe-0 d-flex mb-3"
+        className="card-main pt-3 ps-0 pe-0 d-flex mb-3 m-auto"
         key={id}
         style={{ width: "20rem", maxHeight: "600px" }}
       >
@@ -99,8 +99,7 @@ const BookCard = ({
                   variant="auto"
                   src={image}
                   alt={name}
-                  style={{}}
-                  className="img-hover w-100"
+                  className="img-hover"
                 />
                 <h3 className="mt-4 text-center">Prise: {pris}</h3>
                 <Button

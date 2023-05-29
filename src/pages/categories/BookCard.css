@@ -14,13 +14,12 @@
   border-radius: 0;
   color: white;
   text-decoration: none;
-   transition: 0.5s;
+  transition: 0.5s;
 }
 
 .buy-button:hover {
   background: var(--branding-color);
   color: white;
-  
 }
 
 .price-button {
@@ -28,12 +27,16 @@
   border-radius: 0;
   color: white;
   text-decoration: none;
-   transition: 0.5s;
+  transition: 0.5s;
 }
 
 .price-button:hover {
   background: var(--main-text-color);
   color: white;
+}
+
+.img-hover {
+  width: 100%;
 }
 
 .img-hover:hover {
@@ -44,9 +47,17 @@
 
 .close-button {
   position: absolute;
-  top: 3%;
-  right: 3%;
+  top: 1%;
+  right: 1%;
   padding: 5px 15px;
   border: 1px solid grey;
   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .img-hover {
+    width: 76%;
+    margin: 0 12%;
+    text-align: center;
+  }
 }

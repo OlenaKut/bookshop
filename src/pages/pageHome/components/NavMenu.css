@@ -1,7 +1,8 @@
 .toggle {
-  position: absolute;
-  top: -645px;
-  right: 0;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  z-index: 1;
 }
 .vertical-menu {
   list-style: none;
