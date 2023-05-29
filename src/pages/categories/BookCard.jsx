@@ -46,20 +46,24 @@ const BookCard = ({
   }
 
   return (
-    <Col xs="auto">
+    <Col sm="auto" className="col-xxl-4 col-xl-4 col-lg-6 m-auto">
       <Card
         className="card-main pt-3 ps-0 pe-0 d-flex mb-3"
         key={id}
-        style={{ width: "17rem", maxHeight: "600px" }}
+        style={{ width: "20rem", maxHeight: "600px" }}
       >
         <Card.Img
+          onClick={handleClick}
           variant="auto"
           src={image}
           alt={name}
           style={{ width: "80%" }}
           className="m-auto img-hover"
         />
-        <Card.Body className="text-start  overflow-y-auto p-3">
+        <Card.Body
+          onClick={handleClick}
+          className="text-start card-body overflow-y-auto p-3"
+        >
           <Card.Title className="card-title">
             <span className="title-hover" onClick={handleClick}>
               {name}
@@ -95,7 +99,7 @@ const BookCard = ({
                   variant="auto"
                   src={image}
                   alt={name}
-                  style={{ height: "300px" }}
+                  style={{}}
                   className="img-hover w-100"
                 />
                 <h3 className="mt-4 text-center">Prise: {pris}</h3>

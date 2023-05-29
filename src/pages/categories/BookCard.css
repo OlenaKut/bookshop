@@ -1,3 +1,6 @@
+.card-body:hover {
+  cursor: pointer;
+}
 .card-title {
   color: var(--branding-color);
 }
@@ -11,22 +14,34 @@
   border-radius: 0;
   color: white;
   text-decoration: none;
+   transition: 0.5s;
 }
+
+.buy-button:hover {
+  background: var(--branding-color);
+  color: white;
+  
+}
+
 .price-button {
   background: var(--branding-color);
   border-radius: 0;
   color: white;
   text-decoration: none;
+   transition: 0.5s;
+}
+
+.price-button:hover {
+  background: var(--main-text-color);
+  color: white;
 }
 
 .img-hover:hover {
   transform: scale(1.1);
   transition: 500ms;
+  cursor: pointer;
 }
 
-.title-hover:hover {
-  text-decoration: underline;
-}
 .close-button {
   position: absolute;
   top: 3%;

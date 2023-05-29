@@ -6,17 +6,16 @@ const Subheader = () => {
   return (
     <Carousel variant="dark" className="boxCarousel">
       <Carousel.Item>
-        <div class="d-flex justify-content-evenly">
+        <div class="d-flex justify-content-center mt-5">
           <div class="col-md-6">
             <img
               src="images/caruesel1.jpg"
-              class="d-block w-100"
+              class="d-block w-75 m-auto"
               alt="..."
-              height={400}
             />
           </div>
-          <div class="col-md-6 col-xl-4 d-none d-md-block pt-2 ps-4 pe-2 discription">
-            <h5 className="text-center">
+          <div class="col-md-6 col-xl-4 d-none d-md-block">
+            <h5 className="text-center mb-3">
               I Cook in Color: Bright Flavors from My Kitchen and Around the
               World
             </h5>
@@ -35,16 +34,15 @@ const Subheader = () => {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div class="d-flex justify-content-evenly">
+        <div class="d-flex justify-content-center mt-5">
           <div class="col-md-6">
             <img
               src="images/caruesel2.jpg"
-              class="d-block w-100"
+              class="d-block w-75 m-auto"
               alt="..."
-              height={400}
             />
           </div>
-          <div class="col-md-6 col-xl-4 d-none d-md-block pt-2 ps-4 pe-2 discription">
+          <div class="col-md-6 col-xl-4 d-none d-md-block">
             <h5 className="text-center">
               Dear Girl,: A Celebration of Wonderful, Smart, Beautiful You!
             </h5>
@@ -65,16 +63,11 @@ const Subheader = () => {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div class="d-flex justify-content-evenly">
+        <div class="d-flex justify-content-center mt-5">
           <div class="col-md-6">
-            <img
-              src="images/caruesel3.jpg"
-              class="d-block w-100"
-              alt="slide1"
-              height={400}
-            />
+            <img src="images/caruesel3.jpg" class="d-block w-75 m-auto" alt="slide1" />
           </div>
-          <div class="col-md-6 col-xl-4 d-none d-md-block pt-2 ps-4 pe-2 discription">
+          <div class="col-md-6 col-xl-4 d-none d-md-block">
             <h5 className="text-center">
               The Umayyad Mosque of Damascus: Art, Faith and Empire in Early
               Islam

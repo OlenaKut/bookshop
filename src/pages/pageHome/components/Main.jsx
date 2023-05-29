@@ -1,5 +1,5 @@
 import React from "react";
-import "./MainBlock.css";
+import "../../categories/BookCard.css";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -23,7 +23,7 @@ const Main = () => {
                 <Card.Img
                   variant="top"
                   src={bestceller.image}
-                  className="rounded m-auto image-best"
+                  className="rounded m-auto"
                 />
                 <Card.Body className="text-start p-3 overflow-y-auto mb-2">
                   <Card.Title className="card-title">
@@ -39,13 +39,13 @@ const Main = () => {
                   <ButtonGroup className="w-100">
                     <Button
                       variant="link"
-                      className="buy-button fw-bold bg-dark text-white"
+                      className="buy-button fw-bold"
                     >
                       BUY NOW
                     </Button>
                     <Button
                       variant="link"
-                      className="price-button fw-bold bg-primary text-white"
+                      className="price-button fw-bold"
                     >
                       {bestceller.pris}
                     </Button>
