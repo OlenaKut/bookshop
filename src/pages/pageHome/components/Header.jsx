@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import Basket from "./Basket";
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
         </Col>
         <Col lg="3" xxl="2" className="login-button">
           <p>
+            <i className="bi bi-person ps-2 pe-2 fs-3"></i>
             Welcome,
             <Button
               variant="link"
@@ -32,21 +34,8 @@ const Header = () => {
             </Button>
           </p>
         </Col>
-        <Col lg="3" xxl="2">
-          <p>
-            Shopping Cart(),
-            <Button
-              variant="link"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              $0.00
-            </Button>
-          </p>
-        </Col>
+        <Basket />
       </Row>
-
       <div>
         <h1 className="logo text-center text-sm-start">BookShop</h1>
         <p className="logo-under-text">your best friend</p>

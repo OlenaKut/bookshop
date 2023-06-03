@@ -16,7 +16,7 @@ const poetry = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$17.00",
+    pris: 17.0,
     image:
       "https://images-us.bookshop.org/ingram/9781606354063.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -46,7 +46,7 @@ const poetry = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$14.87",
+    pris: 14.87,
     image:
       "https://images-us.bookshop.org/ingram/9781937512934.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -78,7 +78,7 @@ const poetry = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$15.00",
+    pris: 15.0,
     image:
       "https://images-us.bookshop.org/ingram/9781606352113.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -111,7 +111,7 @@ const poetry = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$19.95",
+    pris: 19.95,
     image:
       "https://images-us.bookshop.org/ingram/9781606353899.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -141,7 +141,7 @@ const poetry = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$18.00",
+    pris: 18.0,
     image:
       "https://images-us.bookshop.org/ingram/9780873388764.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -171,7 +171,7 @@ const poetry = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$13.94",
+    pris: 13.94,
     image:
       "https://images-us.bookshop.org/ingram/9780062662811.jpg?height=500&v=v2",
     aboutTheAuthor:
