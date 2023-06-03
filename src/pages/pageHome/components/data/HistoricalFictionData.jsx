@@ -16,7 +16,7 @@ const historicalFiction = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$17.99",
+    pris: 17.99,
     image:
       "https://images-us.bookshop.org/ingram/9781594138942.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -49,7 +49,7 @@ const historicalFiction = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$15.81",
+    pris: 15.81,
     image:
       "https://images-us.bookshop.org/ingram/9781101985014.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -82,7 +82,7 @@ const historicalFiction = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9781250229533.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -115,7 +115,7 @@ const historicalFiction = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.04",
+    pris: 26.04,
     image:
       "https://images-us.bookshop.org/ingram/9780525429760.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -148,7 +148,7 @@ const historicalFiction = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$15.81",
+    pris: 15.81,
     image:
       "https://images-us.bookshop.org/ingram/9781594634741.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -181,7 +181,7 @@ const historicalFiction = [
       language: "English",
       type: "Paperback",
     },
-    pris: " $16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9780062943477.jpg?height=500&v=v2",
     aboutTheAuthor:

@@ -4,8 +4,10 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
-import "./BookCard.css";
 import Modal from "react-modal";
+import { useState, useContext } from "react";
+import { BookContext } from "../../BookContext";
+import "./BookCard.css";
 
 const customStyles = {
   content: {
@@ -35,7 +37,9 @@ const BookCard = ({
   reviews3,
   authorReviews3,
 }) => {
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const context = useContext(BookContext);
+
+  const [modalIsOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     setIsOpen(true);
@@ -43,6 +47,16 @@ const BookCard = ({
 
   function closeModal() {
     setIsOpen(false);
+  }
+
+  function generateBookData() {
+    return {
+      id,
+      name,
+      image,
+      author,
+      pris,
+    };
   }
 
   return (
@@ -75,11 +89,17 @@ const BookCard = ({
         </Card.Body>
 
         <ButtonGroup aria-label="Basic example">
-          <Button variant="link" className="buy-button fw-bold">
+          <Button
+            variant="link"
+            className="buy-button fw-bold"
+            onClick={() => {
+              context.addToCart(generateBookData());
+            }}
+          >
             BUY NOW
           </Button>
           <Button variant="link" className="price-button fw-bold">
-            {pris}
+            ${(pris).toFixed(2)}
           </Button>
         </ButtonGroup>
 
@@ -101,10 +121,11 @@ const BookCard = ({
                   alt={name}
                   className="img-hover"
                 />
-                <h3 className="mt-4 text-center">Prise: {pris}</h3>
+                <h3 className="mt-4 text-center">Prise: {(pris).toFixed(2)}</h3>
                 <Button
                   variant="link"
                   className="buy-button fw-bold mt-3 w-100"
+                  onClick={() => context.addToCart(generateBookData())}
                 >
                   BUY NOW
                 </Button>

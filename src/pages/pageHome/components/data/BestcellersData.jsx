@@ -17,7 +17,7 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26",
+    pris: 26,
     prisSup: "04",
     image:
       "https://images-us.bookshop.org/ingram/9781982185855.jpg?height=500&v=v2-0afdc80bbdae2386423f058442321607",
@@ -53,7 +53,7 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$27",
+    pris: 27,
     prisSup: "90",
     image:
       "https://images-us.bookshop.org/ingram/9781335449528.jpg?height=500&v=v2-00915b98d6629bb8387a812381433881",
@@ -82,7 +82,7 @@ const bestcellers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$19",
+    pris: 19,
     prisSup: "00",
     image:
       "https://images-us.bookshop.org/ingram/9781662938627.jpg?height=500&v=v2-653e64d77f0b3bdac950ee7fd64d76ce",
@@ -113,7 +113,7 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$25",
+    pris: 25,
     prisSup: "11",
     image:
       "https://images-us.bookshop.org/ingram/9780593473009.jpg?height=500&v=v2-1cd2acab0255a5b96d27d48dc4cb14cb",
@@ -147,7 +147,7 @@ const bestcellers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26",
+    pris: 26,
     prisSup: "04",
     image:
       "https://images-us.bookshop.org/ingram/9780593243732.jpg?height=500&v=v2-858b95806c09b27d6279304493d3f59e",
@@ -183,7 +183,7 @@ const bestcellers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$18",
+    pris: 18,
     prisSup: "59",
     image:
       "https://images-us.bookshop.org/ingram/9780857197689.jpg?height=500&v=v2-619abd7660bedb152dc76451bd5d9f80",
@@ -216,7 +216,7 @@ const bestcellers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$18",
+    pris: 18,
     prisSup: "05",
     image:
       "https://images-us.bookshop.org/ingram/9781684812097.jpg?height=500&v=v2-d2d8d95631a246a02701a45ef647ba68",
@@ -247,7 +247,7 @@ const bestcellers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16",
+    pris: 16,
     prisSup: "73",
     image:
       "https://images-us.bookshop.org/ingram/9780547928203.jpg?height=500&v=v2",

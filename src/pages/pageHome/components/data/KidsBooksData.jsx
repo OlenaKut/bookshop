@@ -16,7 +16,7 @@ const kidsBooks = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9781682631829.jpg?height=500&v=v2-0ebfc0da11b0285f7580d14ebabd8fef",
     aboutTheAuthor:
@@ -48,7 +48,7 @@ const kidsBooks = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9780062422507.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -81,7 +81,7 @@ const kidsBooks = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$17.66",
+    pris: 17.66,
     image:
       "https://images-us.bookshop.org/ingram/9780399255144.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -114,7 +114,7 @@ const kidsBooks = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$14.87",
+    pris: 14.87,
     image:
       "https://images-us.bookshop.org/ingram/9781684053278.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -145,7 +145,7 @@ const kidsBooks = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9780399234163.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -178,7 +178,7 @@ const kidsBooks = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$15.76",
+    pris: 15.76,
     image:
       "https://images-us.bookshop.org/ingram/9781454923817.jpg?height=500&v=v2",
     aboutTheAuthor:

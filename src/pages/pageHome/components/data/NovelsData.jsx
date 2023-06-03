@@ -16,7 +16,7 @@ const novels = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$15.80",
+    pris: 15.8,
     image:
       "https://images-us.bookshop.org/ingram/9781455557110.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -49,7 +49,7 @@ const novels = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$18.99",
+    pris: 18.99,
     image:
       "https://images-us.bookshop.org/ingram/9780316098281.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -82,10 +82,11 @@ const novels = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9780593112564.jpg?height=500&v=v2-6b97a15a141839785a16b93bf6703b27",
-    aboutTheAuthor: "Jennifer Dugan is a writer, a geek, and a romantic who writes the kinds of stories she wishes she'd had growing up. She is the author of the novels Some Girls Do, Verona Comics, and Hot Dog Girl, which was called a great fizzy rom-com by Entertainment Weekly and 'one of the best reads of the year, hands down' by Paste magazine. The writer/creator of two indie comics, she lives in upstate New York with her family, her dogs, her beloved bearded dragon, and an evil cat that is no doubt planning to take over the world. You can visit Jennifer at JLDugan.com or follow her on Twitter and Instagram @JL_Dugan.",
+    aboutTheAuthor:
+      "Jennifer Dugan is a writer, a geek, and a romantic who writes the kinds of stories she wishes she'd had growing up. She is the author of the novels Some Girls Do, Verona Comics, and Hot Dog Girl, which was called a great fizzy rom-com by Entertainment Weekly and 'one of the best reads of the year, hands down' by Paste magazine. The writer/creator of two indie comics, she lives in upstate New York with her family, her dogs, her beloved bearded dragon, and an evil cat that is no doubt planning to take over the world. You can visit Jennifer at JLDugan.com or follow her on Twitter and Instagram @JL_Dugan.",
     reviews1: "Ideal for romantics and foodies alike.",
     authorReviews1: "--Booklist",
     reviews2: "A truly wonderful and joyous book.",
@@ -99,8 +100,10 @@ const novels = [
     id: 10804,
     name: "Ramón and Julieta",
     author: "Alana Quintana Albertson",
-    descriptionShort: "When fate and tacos bring Ramón and Julieta together on the Day of the Dead, the star-crossed pair must make a choice: accept the bitter food rivalry that drives them apart or surrender to a love that consumes them--perfect for fans of Jane the Virgin!",
-    description: "Ramón Montez always achieves his goals. Whether that means collecting Ivy League degrees or growing his father's fast-food empire, nothing sets Ramón off course. So when the sexy señorita who kissed him on the Day of the Dead runs off into the night with his heart, he determines to do whatever it takes to find her again.",
+    descriptionShort:
+      "When fate and tacos bring Ramón and Julieta together on the Day of the Dead, the star-crossed pair must make a choice: accept the bitter food rivalry that drives them apart or surrender to a love that consumes them--perfect for fans of Jane the Virgin!",
+    description:
+      "Ramón Montez always achieves his goals. Whether that means collecting Ivy League degrees or growing his father's fast-food empire, nothing sets Ramón off course. So when the sexy señorita who kissed him on the Day of the Dead runs off into the night with his heart, he determines to do whatever it takes to find her again.",
     details: {
       publisher: "Berkley Books",
       publishDate: "February 01, 2022",
@@ -110,13 +113,15 @@ const novels = [
       type: "Paperback",
     },
     pris: "$14.88",
-    image: "https://images-us.bookshop.org/ingram/9780593336229.jpg?height=500&v=v2-db9d313f214c48e9b48a4f99038f34f0",
-    aboutTheAuthor: "Alana Quintana Albertson has written thirty romance novels, rescued five-hundred death-row shelter dogs, and danced one thousand rumbas. She lives in sunny San Diego with her husband, two sons, and too many pets. Most days, she can be found writing her next heart book in a beachfront café while sipping an oat-milk Mexican mocha or gardening with her children in their backyard orchard and snacking on a juicy blood orange.",
-   reviews1: "Ideal for romantics and foodies alike.",
+    image:
+      "https://images-us.bookshop.org/ingram/9780593336229.jpg?height=500&v=v2-db9d313f214c48e9b48a4f99038f34f0",
+    aboutTheAuthor:
+      "Alana Quintana Albertson has written thirty romance novels, rescued five-hundred death-row shelter dogs, and danced one thousand rumbas. She lives in sunny San Diego with her husband, two sons, and too many pets. Most days, she can be found writing her next heart book in a beachfront café while sipping an oat-milk Mexican mocha or gardening with her children in their backyard orchard and snacking on a juicy blood orange.",
+    reviews1: "Ideal for romantics and foodies alike.",
     authorReviews1: "--Booklist",
-     reviews2: "A truly wonderful and joyous book.",
+    reviews2: "A truly wonderful and joyous book.",
     authorReviews2: "--Jasmine Guillory, New York Times bestselling author",
-     reviews3: "One of the best books I've read in the last 10 years!",
+    reviews3: "One of the best books I've read in the last 10 years!",
     authorReviews3: "--Reader Review",
   },
 
@@ -125,8 +130,10 @@ const novels = [
     id: 10805,
     name: "Pride, Prejudice, and Other Flavors",
     author: "Sonali Dev",
-    descriptionShort: "Award-winning author Sonali Dev launches a new series about the Rajes, an immigrant Indian family descended from royalty, who have built their lives in San Francisco...",
-    description: "It is a truth universally acknowledged that only in an overachieving Indian American family can a genius daughter be considered a black sheep.",
+    descriptionShort:
+      "Award-winning author Sonali Dev launches a new series about the Rajes, an immigrant Indian family descended from royalty, who have built their lives in San Francisco...",
+    description:
+      "It is a truth universally acknowledged that only in an overachieving Indian American family can a genius daughter be considered a black sheep.",
     details: {
       publisher: "William Morrow & Company",
       publishDate: "May 07, 2019",
@@ -135,14 +142,18 @@ const novels = [
       language: "English",
       type: "Paperback",
     },
-    pris: " $14.87",
-    image: "https://images-us.bookshop.org/ingram/9780062839053.jpg?height=500&v=v2",
-    aboutTheAuthor: "USA Today bestselling author Sonali Dev writes Bollywood-style stories that explore universal issues. Her novels have been named Best Books of the Year by Library Journal, NPR, the Washington Post, Buzzfeed, and Kirkus Reviews. She has won numerous accolades, including the American Library Association's award for best in genre, the Romantic Times Reviewers' Choice Award, and multiple RT Seals of Excellence; has been a RITA finalist; and has been listed for the Dublin Literary Award. Shelf Awareness calls her not only one of the best but one of the bravest romance novelists working today. She lives in Chicagoland with her husband, two visiting adult children, and the world's most perfect dog.",
-    reviews1: "Pride, Prejudice, and Other Flavors is a vibrant multicultural feast written with a taste for the true nature of the American stew--not a mush of indecipherable flavors but a celebration of its many ingredients. Sonali Dev is a fresh, unique, and wise voice in women's fiction.",
+    pris: 14.87,
+    image:
+      "https://images-us.bookshop.org/ingram/9780062839053.jpg?height=500&v=v2",
+    aboutTheAuthor:
+      "USA Today bestselling author Sonali Dev writes Bollywood-style stories that explore universal issues. Her novels have been named Best Books of the Year by Library Journal, NPR, the Washington Post, Buzzfeed, and Kirkus Reviews. She has won numerous accolades, including the American Library Association's award for best in genre, the Romantic Times Reviewers' Choice Award, and multiple RT Seals of Excellence; has been a RITA finalist; and has been listed for the Dublin Literary Award. Shelf Awareness calls her not only one of the best but one of the bravest romance novelists working today. She lives in Chicagoland with her husband, two visiting adult children, and the world's most perfect dog.",
+    reviews1:
+      "Pride, Prejudice, and Other Flavors is a vibrant multicultural feast written with a taste for the true nature of the American stew--not a mush of indecipherable flavors but a celebration of its many ingredients. Sonali Dev is a fresh, unique, and wise voice in women's fiction.",
     authorReviews1: "--Barbara O'Neal, The Art of Inheriting Secrets",
     reviews2: "A truly wonderful and joyous book.",
     authorReviews2: "--Jasmine Guillory, New York Times bestselling author",
-    reviews3: "A profound, unique talent, Sonali Dev grabs the reader by the heart.",
+    reviews3:
+      "A profound, unique talent, Sonali Dev grabs the reader by the heart.",
     authorReviews3: "--Kristan Higgins,",
   },
 
@@ -151,8 +162,10 @@ const novels = [
     id: 10806,
     name: "Zainab Takes New York",
     author: "Ayesha Harruna Attah",
-    descriptionShort: "Zainab Sekyi is on a quest to find herself...She's moving to New York City to pursue her lifelong dream to become an illustrator, but she doesn't just want to get a job. She's also on a mission to make enough money to go on a night out, buy a whole bottle of wine (not just a glass) and, most importantly of all, to fall in love.",
-    description: "But as she grows accustomed to the hustle and bustle of city life - with the help of her new roommate Mary Grace, and life-long friend, Densua - she begins to hear the voices of her ancestors in her mind...",
+    descriptionShort:
+      "Zainab Sekyi is on a quest to find herself...She's moving to New York City to pursue her lifelong dream to become an illustrator, but she doesn't just want to get a job. She's also on a mission to make enough money to go on a night out, buy a whole bottle of wine (not just a glass) and, most importantly of all, to fall in love.",
+    description:
+      "But as she grows accustomed to the hustle and bustle of city life - with the help of her new roommate Mary Grace, and life-long friend, Densua - she begins to hear the voices of her ancestors in her mind...",
     details: {
       publisher: "Headline Accent",
       publishDate: "July 11, 2023",
@@ -161,12 +174,15 @@ const novels = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16.73",
-    image: "https://images-us.bookshop.org/ingram/9781472288394.jpg?height=500&v=v2-c3043fb43080089ae32b6aa8bc381f32",
-    aboutTheAuthor: "Ayesha Harruna Attah is a Ghanaian-born writer living in Senegal. She was educated at Mount Holyoke College, Columbia University, and New York University. She is the author of the Commonwealth Writers Prize-nominated Harmattan Rain, Saturdays Shadows, The Hundred Wells of Salaga, currently translated into four languages, and The Deep Blue Between, a book for young adults. Her writing has appeared in the New York Times, New York Times Magazine, Elle Italia, Asymptote and the 2010 Caine Prize Writers' Anthology.",
-    reviews1: "This was just the most beautiful book, from it's gorgeous cover to the immersive storyline. I haven't read anything quite as engaging as this in recent years!",
+    pris: 16.73,
+    image:
+      "https://images-us.bookshop.org/ingram/9781472288394.jpg?height=500&v=v2-c3043fb43080089ae32b6aa8bc381f32",
+    aboutTheAuthor:
+      "Ayesha Harruna Attah is a Ghanaian-born writer living in Senegal. She was educated at Mount Holyoke College, Columbia University, and New York University. She is the author of the Commonwealth Writers Prize-nominated Harmattan Rain, Saturdays Shadows, The Hundred Wells of Salaga, currently translated into four languages, and The Deep Blue Between, a book for young adults. Her writing has appeared in the New York Times, New York Times Magazine, Elle Italia, Asymptote and the 2010 Caine Prize Writers' Anthology.",
+    reviews1:
+      "This was just the most beautiful book, from it's gorgeous cover to the immersive storyline. I haven't read anything quite as engaging as this in recent years!",
     authorReviews1: "--Kristan Higgins,",
-      reviews2: "If you're looking for a cute fun read, here is your next book",
+    reviews2: "If you're looking for a cute fun read, here is your next book",
     authorReviews2: "--Netgalley Reviewer, 5 stars",
     reviews3: "One of the best books I've read in the last 10 years!",
     authorReviews3: "--Reader Review",
