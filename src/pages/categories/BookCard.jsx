@@ -1,10 +1,12 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Modal from "react-modal";
+import { BookContext } from "../../BookContext";
+import "./BookCard.css";
 
 const customStyles = {
   content: {
@@ -34,7 +36,9 @@ const BookCard = ({
   reviews3,
   authorReviews3,
 }) => {
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const context = useContext(BookContext);
+  
+  const [modalIsOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     setIsOpen(true);
