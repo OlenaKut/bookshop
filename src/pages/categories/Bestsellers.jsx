@@ -29,7 +29,7 @@ const Bestcellers = ({ eachBook }) => {
     });
   }
   return (
-    <Col md={9} xl={10} className="m-auto pb-5">
+    <Col md={9} xl={10} className="m-auto pb-5 pt-5">
       <Row
         className="d-inline-flex justify-content-around overflow-y-auto"
         xs="auto"

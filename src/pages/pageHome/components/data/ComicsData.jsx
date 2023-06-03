@@ -16,7 +16,7 @@ const comics = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$15.80",
+    pris: 15.80,
     image:
       "https://images-us.bookshop.org/ingram/9781534321144.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -46,7 +46,7 @@ const comics = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$9.29",
+    pris: 9.29,
     image:
       "https://images-us.bookshop.org/ingram/9781534319943.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -77,7 +77,7 @@ const comics = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$15.80",
+    pris: 15.80,
     image:
       "https://images-us.bookshop.org/ingram/9781534322349.jpg?height=500&v=v2-1276e9c33844dd611d857421aa199844",
     aboutTheAuthor:
@@ -107,7 +107,7 @@ const comics = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9781534322387.jpg?height=500&v=v2-6b5375575660d96499093898739447ab",
     aboutTheAuthor:
@@ -140,7 +140,7 @@ const comics = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$9.99",
+    pris: 9.99,
     image:
       "https://images-us.bookshop.org/ingram/9781534305007.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -173,7 +173,7 @@ const comics = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$24.99",
+    pris: 24.99,
     image:
       "https://images-us.bookshop.org/ingram/9781534319479.jpg?height=500&v=v2",
     aboutTheAuthor: "",

@@ -4,9 +4,7 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
-import "./BookCard.css";
 import Modal from "react-modal";
-import { BookContext } from "../../BookContext";
 
 const customStyles = {
   content: {
@@ -36,8 +34,6 @@ const BookCard = ({
   reviews3,
   authorReviews3,
 }) => {
-  const context = useContext(BookContext);
-
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   const handleClick = () => {
@@ -88,18 +84,11 @@ const BookCard = ({
         </Card.Body>
 
         <ButtonGroup aria-label="Basic example">
-          <Button
-            variant="link"
-            className="buy-button fw-bold"
-            onClick={() => {
-              console.log("trying to change context");
-              context.addToCart(generateBookData());
-            }}
-          >
+          <Button variant="link" className="buy-button fw-bold">
             BUY NOW
           </Button>
           <Button variant="link" className="price-button fw-bold">
-            {pris}
+            ${(pris).toFixed(2)}
           </Button>
         </ButtonGroup>
 
@@ -121,7 +110,7 @@ const BookCard = ({
                   alt={name}
                   className="img-hover"
                 />
-                <h3 className="mt-4 text-center">Prise: {pris}</h3>
+                <h3 className="mt-4 text-center">Prise: {(pris).toFixed(2)}</h3>
                 <Button
                   variant="link"
                   className="buy-button fw-bold mt-3 w-100"

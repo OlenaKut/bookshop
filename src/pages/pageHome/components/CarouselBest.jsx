@@ -30,7 +30,7 @@ const CarouselBest = () => {
                   className="carousel-best-img m-auto d-flex justify-content-between text-center mb-3"
                 />
                 <p className="carousel-best-pris">
-                  {bestceller.pris}
+                  ${bestceller.pris}
                   <sup className="carousel-best-pris-sup m-1">
                     {bestceller.prisSup}
                   </sup>

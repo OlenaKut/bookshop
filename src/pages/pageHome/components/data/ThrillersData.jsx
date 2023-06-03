@@ -16,7 +16,7 @@ const thrillers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$18.00",
+    pris: 18.0,
     image:
       "https://images-us.bookshop.org/ingram/9780143110460.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -48,7 +48,7 @@ const thrillers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: " $26.96",
+    pris: 26.96,
     image:
       "https://images-us.bookshop.org/ingram/9781250240309.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -78,7 +78,7 @@ const thrillers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$17.66",
+    pris: 17.66,
     image:
       "https://images-us.bookshop.org/ingram/9781504081818.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -108,7 +108,7 @@ const thrillers = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16.74",
+    pris: 16.74,
     image:
       "https://images-us.bookshop.org/ingram/9780143127512.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -140,7 +140,7 @@ const thrillers = [
       language: "English",
       type: "Paperback",
     },
-    pris: " $16.74",
+    pris: 16.74,
     image:
       "https://images-us.bookshop.org/ingram/9781250075550.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -173,7 +173,7 @@ const thrillers = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.03",
+    pris: 26.03,
     image:
       "https://images-us.bookshop.org/ingram/9781250313072.jpg?height=500&v=v2",
     aboutTheAuthor:

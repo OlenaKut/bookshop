@@ -16,6 +16,8 @@ import Horror from "./pages/categories/Horror";
 import Poetry from "./pages/categories/Poetry";
 import Novels from "./pages/categories/Novels";
 import Thrillers from "./pages/categories/Thrillers";
+import Bestcellers from "./pages/categories/Bestsellers";
+import { BookContextProvider } from "./BookContext";
 import posthog from "posthog-js";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -33,6 +35,10 @@ const App = () => {
           <Row>
             <NavMenu />
             <Routes>
+<<<<<<< HEAD
+=======
+              <Route exact path="/" element={<Bestcellers />} />
+>>>>>>> 3eb1e2e5e731217d0bfe836358c1db0fa4cabe84
               <Route exact path="/" element={<HomePage />} />
               <Route exact path="/cookingWine" element={<CookingWine />} />
               <Route exact path="/kidsBooks" element={<KidsBooks />} />
@@ -48,6 +54,12 @@ const App = () => {
               <Route exact path="/novels" element={<Novels />} />
               <Route exact path="/thrillers" element={<Thrillers />} />
             </Routes>
+<<<<<<< HEAD
+=======
+            <Routes>
+              <Route exact path="/" element={<HomePage />} />
+            </Routes>
+>>>>>>> 3eb1e2e5e731217d0bfe836358c1db0fa4cabe84
           </Row>
 
           {posthog.has_opted_out_capturing() ||

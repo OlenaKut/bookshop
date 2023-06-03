@@ -17,7 +17,7 @@ const horror = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.03",
+    pris: 26.03,
     image:
       "https://images-us.bookshop.org/ingram/9781250803825.jpg?height=500&v=v2-d5f50e9b40af1115f52addfae6efa399",
     aboutTheAuthor:
@@ -47,7 +47,7 @@ const horror = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$14.88",
+    pris: 14.88,
     image:
       "https://images-us.bookshop.org/ingram/9781501154652.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -79,7 +79,7 @@ const horror = [
       language: "English",
       type: "Paperback",
     },
-    pris: " $16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9781250301703.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -112,7 +112,7 @@ const horror = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.03",
+    pris: 26.03,
     image:
       "https://images-us.bookshop.org/ingram/9781728250960.jpg?height=500&v=v2-3e60e0707353dec5eb2cc2db4a9ae76f",
     aboutTheAuthor:
@@ -145,7 +145,7 @@ const horror = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.96",
+    pris: 26.96,
     image:
       "https://images-us.bookshop.org/ingram/9780593158067.jpg?height=500&v=v2-da2d421c7d84d1d443069ee0f08d62bd",
     aboutTheAuthor:
@@ -178,7 +178,7 @@ const horror = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$15.80",
+    pris: 15.8,
     image:
       "https://images-us.bookshop.org/ingram/9781501188787.jpg?height=500&v=v2",
     aboutTheAuthor:

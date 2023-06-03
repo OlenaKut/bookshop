@@ -16,7 +16,7 @@ const cooking = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$37.15",
+    pris: 37.15,
     image:
       "https://images-us.bookshop.org/ingram/9781770503601.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -46,7 +46,7 @@ const cooking = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$37.20",
+    pris: 37.2,
     image:
       "https://images-us.bookshop.org/ingram/9780544836488.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -81,7 +81,7 @@ const cooking = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$18.59",
+    pris: 18.59,
     image:
       "https://images-us.bookshop.org/ingram/9781492677697.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -111,7 +111,7 @@ const cooking = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$26.04",
+    pris: 26.04,
     image:
       "https://images-us.bookshop.org/ingram/9780316420570.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -144,7 +144,7 @@ const cooking = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$32.55",
+    pris: 32.55,
     image:
       "https://images-us.bookshop.org/ingram/9781607742739.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -177,7 +177,7 @@ const cooking = [
       language: "English",
       type: "Hardcover",
     },
-    pris: "$37.20",
+    pris: 37.2,
     image:
       "https://images-us.bookshop.org/ingram/9781452178738.jpg?height=500&v=v2",
     aboutTheAuthor:

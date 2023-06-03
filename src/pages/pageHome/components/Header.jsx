@@ -3,11 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import { BookContext } from "../../../BookContext";
-import Modal from "react-modal";
-
-import Search from "../../search/Search";
-import bestcellers from "./data/BestcellersData";
+import Form from "react-bootstrap/Form";
 
 const Header = () => {
   const [showBasket, setShowBasket] = useState(false);
@@ -49,6 +45,7 @@ const Header = () => {
         </Col>
         <Col lg="3" xxl="2" className="login-button">
           <p>
+            <i className="bi bi-person ps-2 pe-2 fs-3"></i>
             Welcome,
             <Button
               variant="link"
@@ -62,66 +59,18 @@ const Header = () => {
         </Col>
         <Col lg="3" xxl="2">
           <p>
-            Shopping Cart({totalCartCount}),
+            Shopping Cart(),
             <Button
               variant="link"
+              href="#"
+              target="_blank"
               rel="noopener noreferrer"
-              onClick={openModal}
             >
-              {totalCartAmount}
+              $0.00
             </Button>
-            <Modal
-              isOpen={showBasket}
-              onRequestClose={closeModal}
-              style={customStyles}
-              contentLabel="Example Modal"
-            >
-              <button onClick={closeModal} className="close-button">
-                X
-              </button>
-              <Col md={12} key={"some-random-key"}>
-                <Row>
-                  <Col md={4} className="card-main pt-3 ps-0 pe-0 d-block">
-                    {context.state.cart.map((book) => {
-                      return (
-                        <div key={book.id}>
-                          <h3>Total Cart Amount: {totalCartAmount}</h3>
-                          <div>
-                            <p>{book.name}</p>
-                            <p>{book.author}</p>
-                            <img
-                              src={book.image}
-                              alt={book.name}
-                              className="w-75"
-                            />
-                            <p>
-                              You have a total of {book.count} in your cart.
-                            </p>
-                            <p>Price: {book.pris}</p>
-                            <p>Total: {(book.pris * book.count).toFixed(2)}</p>
-                          </div>
-                          <Button onClick={() => context.increase(book.id)}>
-                            +
-                          </Button>
-                          <Button
-                            onClick={() => context.removeFromCart(book.id)}
-                          >
-                            Delete
-                          </Button>
-                          <Button onClick={() => context.decrease(book.id)}>
-                            -
-                          </Button>
-                        </div>
-                      );
-                    })}
-                  </Col>
-                </Row>
-              </Col>
-            </Modal>
           </p>
         </Col>
       </Row>
-
       <div>
         <h1 className="logo text-center text-sm-start">BookShop</h1>
         <p className="logo-under-text">your best friend</p>
