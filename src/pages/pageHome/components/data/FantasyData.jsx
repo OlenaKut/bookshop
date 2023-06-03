@@ -16,7 +16,7 @@ const fantasy = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$119.98",
+    pris: 119.98,
     image:
       "https://images-us.bookshop.org/ingram/9781586170257.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -47,7 +47,7 @@ const fantasy = [
       language: "English",
       type: "Other",
     },
-    pris: "$26.03",
+    pris: 26.03,
     image:
       "https://images-us.bookshop.org/ingram/9781647228095.jpg?height=500&v=v2-5799885d834892ed8999b392def22a47",
     aboutTheAuthor:
@@ -77,7 +77,7 @@ const fantasy = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9780547928203.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -109,7 +109,7 @@ const fantasy = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9780547928197.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -141,7 +141,7 @@ const fantasy = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$16.73",
+    pris: 16.73,
     image:
       "https://images-us.bookshop.org/ingram/9780547928210.jpg?height=500&v=v2",
     aboutTheAuthor:
@@ -172,7 +172,7 @@ const fantasy = [
       language: "English",
       type: "Paperback",
     },
-    pris: "$18.59",
+    pris: 18.59,
     image:
       "https://images-us.bookshop.org/ingram/9781684812097.jpg?height=500&v=v2-d2d8d95631a246a02701a45ef647ba68",
     aboutTheAuthor:
