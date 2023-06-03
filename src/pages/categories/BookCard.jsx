@@ -37,7 +37,7 @@ const BookCard = ({
   authorReviews3,
 }) => {
   const context = useContext(BookContext);
-  
+
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
@@ -88,11 +88,19 @@ const BookCard = ({
         </Card.Body>
 
         <ButtonGroup aria-label="Basic example">
-          <Button variant="link" className="buy-button fw-bold">
+          <Button
+            variant="link"
+            className="buy-button fw-bold"
+            onClick={() => context.addToCart(generateBookData())}
+          >
             BUY NOW
           </Button>
-          <Button variant="link" className="price-button fw-bold">
-            ${(pris).toFixed(2)}
+          <Button
+            variant="link"
+            className="price-button fw-bold"
+            onClick={() => context.addToCart(generateBookData())}
+          >
+            ${pris.toFixed(2)}
           </Button>
         </ButtonGroup>
 
@@ -114,7 +122,7 @@ const BookCard = ({
                   alt={name}
                   className="img-hover"
                 />
-                <h3 className="mt-4 text-center">Prise: {(pris).toFixed(2)}</h3>
+                <h3 className="mt-4 text-center">Prise: {pris.toFixed(2)}</h3>
                 <Button
                   variant="link"
                   className="buy-button fw-bold mt-3 w-100"

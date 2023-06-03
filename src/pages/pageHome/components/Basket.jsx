@@ -43,10 +43,10 @@ const Basket = () => {
   return (
     <Col lg="3" xxl="2">
       <p>
-        <i class="bi bi-cart-check ps-2 pe-2 fs-4"></i>
+        <i class="bi bi-cart-check ps-2 pe-2 fs-5"></i>
         Shopping Cart ({totalCartCount}),
         <Button variant="link" rel="noopener noreferrer" onClick={openModal}>
-          ({totalCartAmount})$
+          $({totalCartAmount})
         </Button>
         <Modal
           isOpen={showBasket}
@@ -68,11 +68,11 @@ const Basket = () => {
                       className="img-fluid mb-4"
                     />
                   </Col>
-                  <Col sm={7} className="pt-`1`">
+                  <Col sm={7} className="pt-1">
                     <h5>{book.name}</h5>
                     <p>Author: {book.author}</p>
-                    <p>Price: {(book.pris).toFixed(2)} $</p>
-                    <p>Total: {(book.pris * book.count).toFixed(2)} $</p>
+                    <p>Price: ${book.pris}</p>
+                    <p>Total: ${(book.pris * book.count).toFixed(2)}</p>
 
                     <Button
                       onClick={() => context.decrease(book.id)}
@@ -101,7 +101,7 @@ const Basket = () => {
               ))}
 
               <h4 className="text-primary pt-3 fs-5 text-end">
-                Total: {totalCartAmount} $
+                Total: ${totalCartAmount}
               </h4>
               <Col className="text-end mt-4">
                 <Button className="btn btn-primary">Complete your order</Button>
