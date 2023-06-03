@@ -19,43 +19,46 @@ import Thrillers from "./pages/categories/Thrillers";
 import posthog from "posthog-js";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BookContextProvider } from "./BookContext";
 
 const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Container fluid className="App">
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Subheader />} />
-        </Routes>
-        <Row>
-          <NavMenu />
+    <BookContextProvider>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Container fluid className="App">
+          <Header />
           <Routes>
-            <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/cookingWine" element={<CookingWine />} />
-            <Route exact path="/kidsBooks" element={<KidsBooks />} />
-            <Route exact path="/fantasy" element={<Fantasy />} />
-            <Route
-              exact
-              path="/historicalFiction"
-              element={<HistoricalFiction />}
-            />
-            <Route exact path="/comics" element={<Comics />} />
-            <Route exact path="/horror" element={<Horror />} />
-            <Route exact path="/poetry" element={<Poetry />} />
-            <Route exact path="/novels" element={<Novels />} />
-            <Route exact path="/thrillers" element={<Thrillers />} />
+            <Route exact path="/" element={<Subheader />} />
           </Routes>
-        </Row>
+          <Row>
+            <NavMenu />
+            <Routes>
+              <Route exact path="/" element={<HomePage />} />
+              <Route exact path="/cookingWine" element={<CookingWine />} />
+              <Route exact path="/kidsBooks" element={<KidsBooks />} />
+              <Route exact path="/fantasy" element={<Fantasy />} />
+              <Route
+                exact
+                path="/historicalFiction"
+                element={<HistoricalFiction />}
+              />
+              <Route exact path="/comics" element={<Comics />} />
+              <Route exact path="/horror" element={<Horror />} />
+              <Route exact path="/poetry" element={<Poetry />} />
+              <Route exact path="/novels" element={<Novels />} />
+              <Route exact path="/thrillers" element={<Thrillers />} />
+            </Routes>
+          </Row>
 
-        {posthog.has_opted_out_capturing() ||
-        posthog.has_opted_in_capturing() ? null : (
-          <Cookies />
-        )}
+          {posthog.has_opted_out_capturing() ||
+          posthog.has_opted_in_capturing() ? null : (
+            <Cookies />
+          )}
 
-        <Footer />
-      </Container>
-    </BrowserRouter>
+          <Footer />
+        </Container>
+      </BrowserRouter>
+    </BookContextProvider>
   );
 };
 

@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import bestcellers from "../pageHome/components/data/BestcellersData";
 import BookCard from "./BookCard";
 
-const Bestcellers = () => {
+const Bestcellers = ({ eachBook }) => {
   function renderBook(_props) {
     return bestcellers.slice(0, 6).map((eachBook) => {
       return (

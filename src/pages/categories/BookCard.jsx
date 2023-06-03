@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import "./BookCard.css";
 import Modal from "react-modal";
+import { BookContext } from "../../BookContext";
 
 const customStyles = {
   content: {
@@ -35,6 +36,8 @@ const BookCard = ({
   reviews3,
   authorReviews3,
 }) => {
+  const context = useContext(BookContext);
+
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   const handleClick = () => {
@@ -43,6 +46,16 @@ const BookCard = ({
 
   function closeModal() {
     setIsOpen(false);
+  }
+
+  function generateBookData() {
+    return {
+      id,
+      name,
+      image,
+      author,
+      pris,
+    };
   }
 
   return (
@@ -75,7 +88,14 @@ const BookCard = ({
         </Card.Body>
 
         <ButtonGroup aria-label="Basic example">
-          <Button variant="link" className="buy-button fw-bold">
+          <Button
+            variant="link"
+            className="buy-button fw-bold"
+            onClick={() => {
+              console.log("trying to change context");
+              context.addToCart(generateBookData());
+            }}
+          >
             BUY NOW
           </Button>
           <Button variant="link" className="price-button fw-bold">
@@ -105,6 +125,7 @@ const BookCard = ({
                 <Button
                   variant="link"
                   className="buy-button fw-bold mt-3 w-100"
+                  onClick={() => context.addToCart(generateBookData())}
                 >
                   BUY NOW
                 </Button>
