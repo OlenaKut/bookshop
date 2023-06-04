@@ -17,6 +17,7 @@ import Poetry from "./pages/categories/Poetry";
 import Novels from "./pages/categories/Novels";
 import Thrillers from "./pages/categories/Thrillers";
 import Bestcellers from "./pages/categories/Bestsellers";
+import Promotions from "./pages/promotions/Promotions";
 import { BookContextProvider } from "./BookContext";
 import posthog from "posthog-js";
 import "./App.css";
@@ -49,6 +50,7 @@ const App = () => {
               <Route exact path="/poetry" element={<Poetry />} />
               <Route exact path="/novels" element={<Novels />} />
               <Route exact path="/thrillers" element={<Thrillers />} />
+              <Route exact path="/promotions" element={<Promotions />} />
             </Routes>
             <Routes>
               <Route exact path="/" element={<HomePage />} />

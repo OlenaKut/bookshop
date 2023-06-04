@@ -57,7 +57,9 @@ function NavMenu() {
                         <NavLink to="/fantasy">Fantasy</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/historicalFiction">Historical fiction</NavLink>
+                        <NavLink to="/historicalFiction">
+                          Historical fiction
+                        </NavLink>
                       </li>
                       <li>
                         <NavLink to="/comics">Comics</NavLink>
@@ -78,7 +80,7 @@ function NavMenu() {
                   )}
                 </li>
                 <li>
-                  <NavLink href="#">Promotions</NavLink>
+                  <NavLink to="/promotions">Promotions</NavLink>
                 </li>
                 <li>
                   <NavLink href="#">About us</NavLink>
