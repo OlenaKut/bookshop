@@ -30,7 +30,7 @@ const About = () => {
             alt="Bookstore"
             className="about-image m-auto mb-3"
           />
-          <div className="mx-4 mt-4">
+          <div className="mx-4 mt-5">
             <h5 className="about-h4">
               Bookshop.org works to connect readers with independent booksellers
               all over the world.
@@ -65,7 +65,7 @@ const About = () => {
               alt="Profite"
               className="about-image m-auto mb-3"
             />
-            <div className="d-inline">
+            <div className="d-inline mt-5">
               <p className="mx-4">
                 Our mission is simple: To help local, independent bookstores
                 thrive in the age of ecommerce.
@@ -129,11 +129,7 @@ const About = () => {
             socially-conscious online shoppers. Amazon sells over 60% of all
             books in the US and is growing. That shift threatens the future of
             bookstores and will hurt readers, authors, and publishers who rely
-            on a diverse, healthy ecosystem for books.{" "}
-            <span className="fw-bold m-auto mx-5">
-              We had a better idea — give readers the convenience of online
-              shopping while supporting independent bookstores at the same time.
-            </span>
+            on a diverse, healthy ecosystem for books. <span className="fw-bold">We had a better idea — give readers the convenience of online shopping while supporting independent bookstores at the same time.</span>
           </p>
           <p className="text-start mb-3 m-auto mx-5">
             We launched in January of 2020, with just 88 bookstore partners and
@@ -146,7 +142,7 @@ const About = () => {
             end of 2020 we had grown to over 1,000 bookstores and distributed
             over ten million dollars in profits. Bookshop.org has since expanded
             internationally, launching in the UK and Spain.
-          </p>{" "}
+          </p>
           <p className="text-start mb-3 m-auto mx-5">
             78% of our customers said they regularly bought books from Amazon
             before they made the switch.

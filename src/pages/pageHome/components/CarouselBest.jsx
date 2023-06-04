@@ -48,10 +48,10 @@ const CarouselBest = () => {
                   </p>
                 </div>
                 <div className="m-auto text-center">
-                  <h5 className="carousel-best-author mx-4">
+                  <h5 className="carousel-best-author mx-4 text-decoration-none">
                     {bestceller.name}
                   </h5>
-                  <h5 className="card-author fs-6 fst-italic">
+                  <h5 className="card-author fs-6 fst-italic text-decoration-none">
                     by {bestceller.author}
                   </h5>
                 </div>
