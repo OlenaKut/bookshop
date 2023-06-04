@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import bestcellers from "../pageHome/components/data/BestcellersData";
 import BookCard from "../categories/BookCard";
 
-
 const Bestcellers = ({ eachBook }) => {
   function renderBook(_props) {
     return bestcellers.slice(0, 6).map((eachBook) => {
@@ -31,6 +30,9 @@ const Bestcellers = ({ eachBook }) => {
   }
   return (
     <Col md={9} xl={10} className="m-auto pb-5 pt-5">
+      <h1 className="mb-5 mx-5 carousel-best-title">
+        Special offers on BookShop
+      </h1>
       <Row
         className="d-inline-flex justify-content-around overflow-y-auto"
         xs="auto"

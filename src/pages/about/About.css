@@ -1,0 +1,31 @@
+.about {
+      color: var(--main-text-color);
+}
+
+.about-span {
+    color: var(--branding-color)
+}
+
+.about-image {
+   width: 40%;
+  }
+
+.about-h4 {
+    color: var(--branding-color)
+}
+
+.about-div {
+    background-color: rgb(235, 250, 254);
+}
+
+.about-span-2 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.about-image-link-div {
+       background-color: rgb(235, 250, 254);
+}
+.about-image-link {
+    width: 20%;
+}

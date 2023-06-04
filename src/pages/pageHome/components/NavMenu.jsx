@@ -83,7 +83,7 @@ function NavMenu() {
                   <NavLink to="/promotions">Promotions</NavLink>
                 </li>
                 <li>
-                  <NavLink href="#">About us</NavLink>
+                  <NavLink to="/about">About us</NavLink>
                 </li>
                 <li>
                   <NavLink href="#">Contacts</NavLink>
