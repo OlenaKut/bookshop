@@ -4,7 +4,7 @@ import "./Subheader.css";
 
 const Subheader = () => {
   return (
-    <Carousel variant="dark" className="boxCarousel">
+    <Carousel variant="dark" className="boxCarousel z-0">
       <Carousel.Item>
         <div class="d-flex justify-content-center mt-5">
           <div class="col-md-6">
