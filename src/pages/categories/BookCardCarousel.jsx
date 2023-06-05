@@ -3,10 +3,12 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Modal from "react-modal";
 import { BookContext } from "../../BookContext";
-import "./BookCard.css";
+import "../pageHome/components/CarouselBest.css";
+import Carousel from "better-react-carousel";
+import Container from "react-bootstrap/Container";
+
 
 const customStyles = {
   content: {
@@ -19,13 +21,14 @@ const customStyles = {
   },
 };
 
-export default function BookCard({
+export default function BookCardCarousel({
   id,
   name,
   image,
   author,
   descriptionShort,
   pris,
+  prisSup,
   description,
   details,
   aboutTheAuthor,
@@ -144,53 +147,46 @@ export default function BookCard({
     );
   };
 
-  return (
-    <Col sm="auto" className="col-xxl-4 col-xl-4 col-lg-6 m-auto">
-      <Card
-        className="card-main pt-3 ps-0 pe-0 d-flex mb-3 m-auto"
-        key={id}
-        style={{ width: "20rem", maxHeight: "600px" }}
-      >
-        <Card.Img
-          onClick={handleClick}
-          variant="auto"
-          src={image}
-          alt={name}
-          style={{ width: "80%" }}
-          className="m-auto img-hover"
-        />
-        <Card.Body
-          onClick={handleClick}
-          className="text-start card-body overflow-y-auto p-3"
+    return (
+        <div>
+        <Carousel
+        cols-md={2}
+        cols-xl={3}
+        cols={4}
+        rows={1}
+        gap={12}
+        loop
+        autoplay={4000}
+        mobileBreakpoint={768}
+        className="carousel-best m-auto text-center"
         >
-          <Card.Title className="card-title">
-            <span className="title-hover" onClick={handleClick}>
-              {name}
-            </span>
-            <br />
-            <span className="card-author fs-6 fst-italic">by {author}</span>
-          </Card.Title>
-          <Card.Text className="overflow-y-auto">{descriptionShort}</Card.Text>
-        </Card.Body>
+     <Carousel.Item key={id} className="m-5 m-auto">
+                <div className="carousel-best-container"  onClick={handleClick}>
+                  <img
+                    src={image}
+                    alt={name}
+                    className="carousel-best-img m-auto d-flex justify-content-between text-center mb-3"
+                  />
 
-        <ButtonGroup aria-label="Basic example">
-          <Button
-            variant="link"
-            className="buy-button fw-bold"
-            onClick={() => context.addToCart(generateBookData())}
-          >
-            BUY NOW
-          </Button>
-          <Button
-            variant="link"
-            className="price-button fw-bold"
-            onClick={() => context.addToCart(generateBookData())}
-          >
-            ${pris.toFixed(2)}
-          </Button>
-        </ButtonGroup>
-      </Card>
-      {ModalCard()}
-    </Col>
-  );
+                  <p className="carousel-best-pris">
+                    ${pris}
+                    <sup className="carousel-best-pris-sup m-1"  onClick={() => context.addToCart(generateBookData())}>
+                      {prisSup}
+                    </sup>
+                  </p>
+                </div>
+                <div className="m-auto text-center">
+                  <h5 className="carousel-best-author mx-4 text-decoration-none">
+                    {name}
+                  </h5>
+                  <h5 className="card-author fs-6 fst-italic text-decoration-none">
+                    by {author}
+                  </h5>
+                </div>
+            </Carousel.Item>
+            
+        </Carousel>
+            {ModalCard()}
+            </div>
+                );
 }

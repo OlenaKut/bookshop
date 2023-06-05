@@ -25,6 +25,7 @@ export const BookContextProvider = ({ children }) => {
     console.log(state);
   }, [state]);
 
+  
   const addToCart = (book) => {
     setState({
       ...state,
@@ -34,9 +35,10 @@ export const BookContextProvider = ({ children }) => {
               ? { ...cartItem, count: cartItem.count + 1 }
               : cartItem
           )
-        : [...state.cart, { ...book, count: 1 }],
-    });
+        : [...state.cart,  { ...book, count: 1}]
+    })
   };
+
 
   const removeFromCart = (id) =>
     setState({
@@ -68,7 +70,7 @@ export const BookContextProvider = ({ children }) => {
 
   return (
     <BookContext.Provider
-      value={{ state, setState, addToCart, increase, decrease, removeFromCart }}
+      value={{ state, setState, addToCart, increase, decrease, removeFromCart,  }}
     >
       {children}
     </BookContext.Provider>

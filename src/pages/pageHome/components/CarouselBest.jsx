@@ -3,14 +3,6 @@ import Carousel from "better-react-carousel";
 import bestcellers from "./data/BestcellersData";
 import "./CarouselBest.css";
 import Container from "react-bootstrap/Container";
-//import Col from "react-bootstrap/Col";
-//import Card from "react-bootstrap/Card";
-//import Row from "react-bootstrap/Row";
-//import Button from "react-bootstrap/Button";
-//import Modal from "react-modal";
-//import "../../categories/BookCard.css";
-//import { BookContext } from "../../../BookContext";
-//import { ModalCard } from "../../categories/BookCard";
 import { NavLink } from "react-router-dom";
 
 const CarouselBest = () => {

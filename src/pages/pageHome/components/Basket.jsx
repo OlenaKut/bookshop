@@ -7,16 +7,20 @@ import { BookContext } from "../../../BookContext";
 
 const Basket = () => {
   const [showBasket, setShowBasket] = useState(false);
+  
 
   const context = useContext(BookContext);
 
   function openModal() {
     setShowBasket(true);
+    
   }
 
   function closeModal() {
     setShowBasket(false);
-  }
+     }
+
+
   const customStyles = {
     content: {
       maxWidth: "600px",
@@ -27,8 +31,7 @@ const Basket = () => {
       bottom: "5%",
       padding: "3%",
       transition: "500ms",
-      zIndex: "5",
-    },
+        },
   };
 
   const totalCartAmount = context.state.cart
@@ -99,8 +102,7 @@ const Basket = () => {
                   <hr className="mt-3" />
                 </Row>
               ))}
-
-              <h4 className="text-primary pt-3 fs-5 text-end">
+                <h4 className="text-primary pt-3 fs-5 text-end">
                 Total: ${totalCartAmount}
               </h4>
               <Col className="text-end mt-4">
