@@ -5,7 +5,9 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-modal";
 import { BookContext } from "../../../BookContext";
 
+
 const Basket = () => {
+
   const [showBasket, setShowBasket] = useState(false);
   
 
@@ -45,13 +47,14 @@ const Basket = () => {
 
   return (
     <Col lg="3" xxl="2">
+   
       <p>
         <i class="bi bi-cart-check ps-2 pe-2 fs-5"></i>
         Shopping Cart ({totalCartCount}),
         <Button variant="link" rel="noopener noreferrer" onClick={openModal}>
           $({totalCartAmount})
         </Button>
-        <Modal
+           <Modal
           isOpen={showBasket}
           onRequestClose={closeModal}
           style={customStyles}

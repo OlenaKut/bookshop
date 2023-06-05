@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NavLink from "react-bootstrap/NavLink";
+import { LinkContainer } from "react-router-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
@@ -42,22 +42,46 @@ const Footer = () => {
           <h1>Follow Us</h1>
           <SocialMedia />
         </Col>
-        <Col sm={6} lg={4} className="">
+        <Col sm={6} lg={4}>
           <h3 className="footerTitle p-2">Store</h3>
-          <NavLink href="#" className="footerLink p-2">
-            Home
-          </NavLink>
-          <NavLink href="#" className="footerLink p-2">
-            Special offers
-          </NavLink>
-          <NavLink href="#" className="footerLink p-2">
-            Login
-          </NavLink>
-          <NavLink href="#" className="footerLink p-2">
-            Basket
-          </NavLink>
+          <div className="row">
+          <LinkContainer to="/" >
+          <Button
+          variant="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footerLink p-2"
+           >
+            Home</Button>
+          </LinkContainer>
+          <LinkContainer to="/promotions">
+            <Button
+          variant="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footerLink p-2"
+           >Special offers</Button>
+          </LinkContainer>
+          <LinkContainer to="/">
+            <Button
+          variant="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footerLink p-2"
+           >Login</Button>
+            </LinkContainer>
+            
+          <LinkContainer to="/about">
+          <Button
+          variant="link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footerLink p-2"
+           >About Us</Button> 
+          </LinkContainer>
+         </div>
         </Col>
-        <Col sm={6} lg={4} className="">
+        <Col sm={6} lg={4}>
           <h3 className="footerTitle p-2">Newsletter</h3>
           <Subscribe />
         </Col>
