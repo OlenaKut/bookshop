@@ -5,8 +5,8 @@ import "./About.css";
 
 const About = () => {
   return (
-    <Col xl={10} md={9} className="mt-4">
-      <Container className="m-auto mb-5 p-0 text-center w-75 about">
+    <Col xl={10} md={9} sm={12} className="mt-4 m-auto">
+      <Container className="m-auto mb-5 p-0 text-center about">
         <hr className="text-black-50" />
         <h4>
           More than <span className="about-span">$26 million</span> raised for
@@ -24,7 +24,7 @@ const About = () => {
             - Inside Hook
           </a>
         </h5>
-        <div className="d-flex text-start mb-5">
+        <div className="d-xl-flex d-inline text-start mb-5">
           <img
             src="images/bookstore.png"
             alt="Bookstore"
@@ -51,7 +51,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-div p-3 fs-5 mb-5">
+        <div className="about-div p-3 mb-5 m-auto">
           Since 2020, we've raised more than{" "}
           <span className="about-span-2">$25 million</span> for independent
           bookstores.
@@ -59,7 +59,7 @@ const About = () => {
         <div className="mb-5">
           <h1 className="mb-2">Our Mission</h1>
           <h4 className="mb-4">(and where our profits go)</h4>
-          <div className="d-flex text-start mt-4">
+          <div className="d-xl-flex d-inline text-start mt-4">
             <img
               src="images/profit.png"
               alt="Profite"
@@ -88,7 +88,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="about-image-link-div pt-4 pb-2 m-5">
+        <div className="about-image-link-div pt-4 p-2 m-5">
           <div className="d-flex justify-content-around">
             {" "}
             <img
@@ -107,7 +107,7 @@ const About = () => {
               className="about-image-link"
             />
           </div>
-          <p className="fw-bold mt-3 p-0">
+          <p className="fw-bold mt-3 p-0 about-image-link-text">
             Bookshop.org has the highest customer service rating of any online
             bookstore in the world on{" "}
             <a
@@ -119,10 +119,10 @@ const About = () => {
             </a>
           </p>
         </div>
-        <div className="my-5 m-auto">
-          <img src="images/history.png" alt="History" className="mb-3 m-auto" />
-          <h2 className="fw-bold w-75 fs-1 mb-4 m-auto">Our History</h2>
-          <p className="text-start mb-3 m-auto mx-5">
+        <div className="my-1 mx-3">
+          <img src="images/history.png" alt="History" className="mb-3 img-fluid" />
+          <h2 className="fw-bold fs-1 mb-4 m-auto">Our History</h2>
+          <p className="text-start mb-3 m-auto">
             Bookshop.org began as an idea to help support bookstores and their
             communities as more and more people are buying their books online.
             We saw an opportunity to create an alternative to Amazon for
@@ -131,11 +131,11 @@ const About = () => {
             bookstores and will hurt readers, authors, and publishers who rely
             on a diverse, healthy ecosystem for books. <span className="fw-bold">We had a better idea — give readers the convenience of online shopping while supporting independent bookstores at the same time.</span>
           </p>
-          <p className="text-start mb-3 m-auto mx-5">
+          <p className="text-start mb-3 m-auto">
             We launched in January of 2020, with just 88 bookstore partners and
             a team of four passionate book people.
           </p>
-          <p className="text-start mb-3 m-auto mx-5">
+          <p className="text-start mb-3 m-auto">
             As the COVID-19 pandemic surged, our growing platform helped our
             community of independent booksellers survive shutdowns. That spring,
             traffic to Bookshop.org hit 1 million users in a single day. By the
@@ -143,7 +143,7 @@ const About = () => {
             over ten million dollars in profits. Bookshop.org has since expanded
             internationally, launching in the UK and Spain.
           </p>
-          <p className="text-start mb-3 m-auto mx-5">
+          <p className="text-start mb-3 m-auto">
             78% of our customers said they regularly bought books from Amazon
             before they made the switch.
           </p>

@@ -1,5 +1,6 @@
 .about {
       color: var(--main-text-color);
+      width: 80%;
 }
 
 .about-span {
@@ -16,11 +17,13 @@
 
 .about-div {
     background-color: rgb(235, 250, 254);
+    font-size: 18px;
 }
 
 .about-span-2 {
-    font-size: 44px;
+    font-size: 36px;
     font-weight: 400;
+
 }
 
 .about-image-link-div {
@@ -28,4 +31,25 @@
 }
 .about-image-link {
     width: 20%;
+}
+@media (max-width: 1200px) {
+
+.about-image {
+   width: 60%;
+  }
+  .about-div {
+    font-size: 16px;
+}
+
+.about-span-2 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 996px) {
+  .about {
+         width: 100%;
+}
+.about-image-link-text {
+    font-size: 12px;
+}
 }
