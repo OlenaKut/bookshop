@@ -43,13 +43,19 @@ const responsive = {
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+    slidesToSlide: 4 // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 768 },
     items: 3,
     slidesToSlide: 3 // optional, default to 1.
   },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 3,
-    slidesToSlide: 3 // optional, default to 1.
+
+   miniTablet: {
+    breakpoint: { max: 768, min: 464 },
+    items: 2,
+    slidesToSlide: 2 // optional, default to 1.
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -78,7 +84,7 @@ const responsive = {
   transitionDuration={500}
   containerClass="carousel-container"
   removeArrowOnDeviceType={"mobile"}
-  //autoPlay={true}
+  autoPlay={true}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
 >

@@ -150,7 +150,7 @@ export default function BookCardCarousel({
           <img
           src={image}
           alt={name}
-          className="carousel-best-img m-auto d-flex justify-content-between text-center mb-3 pe-auto"
+          className="carousel-best-img m-auto d-flex justify-content-between text-center"
           onClick={handleClick}
           />
           <p className="carousel-best-pris" onClick={() => context.addToCart(generateBookData())}>

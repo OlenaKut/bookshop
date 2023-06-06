@@ -15,14 +15,15 @@
  }
 
 .carousel-best-img {
-  width: 250px;
-  height: 350px;
+  width: 20%;
+  height: 25%;
+  cursor: pointer;
 }
 
 .carousel-best-pris {
   position: absolute;
   bottom: -30px;
-  right: -5px;
+  right: 26px;
   padding: 22px 5px;
   background: var(--branding-color);
   color: white;
@@ -31,6 +32,7 @@
   font-size: 32px;
   font-weight: 700;
   box-shadow: 5px 5px 5px 5px white;
+  cursor: pointer;
 }
 
 .carousel-best-pris-sup {
@@ -56,6 +58,30 @@
 }
 @media (max-width: 1200px) {
   .carousel-best-title {
+    font-size: 32px;
+  }
+
+  .carousel-best-img {
+    width: 150px;
+    height: 220px;
+  }
+  .carousel-best-pris {
+    right: 36px;
+    padding: 18px 5px;
+    font-size: 18px;
+  }
+
+  .carousel-best-pris-sup {
+    font-size: 14px;
+  }
+
+  .carousel-best-author {
+  font-size: 18px;
+}
+}
+
+@media (max-width: 996px) {
+  .carousel-best-title {
     font-size: 36px;
   }
 
@@ -64,63 +90,46 @@
     height: 220px;
   }
   .carousel-best-pris {
+    right: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .carousel-best-pris {
+    bottom: -30px;
+    right: 40px;
     padding: 18px 5px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .carousel-best-pris-sup {
     font-size: 14px;
   }
+
+   .carousel-best-author {
+  font-size: 16px;
 }
-
-@media (max-width: 768px) {
-  .carousel-best-title {
-    font-size: 52px;
-  }
-
-  .carousel-best-img {
-    width: 250px;
-    height: 350px;
-  }
-  .carousel-best-pris {
-    bottom: -30px;
-    right: 70px;
-    padding: 22px 5px;
-    font-size: 32px;
-  }
-
-  .carousel-best-pris-sup {
-    font-size: 20px;
-  }
 }
 
 @media (max-width: 576px) {
-  .carousel-best-title {
-    font-size: 44px;
-  }
-
-  .carousel-best-img {
-    width: 250px;
-    height: 350px;
-  }
-  
   .carousel-best-pris {
-    bottom: 140px;
-    right: 7px;
-    padding: 22px 5px;
-    font-size: 24px;
-   
-  }
+    bottom: -25px;
+    right: 36px;
+    }
+ }
 
-  .carousel-best-pris-sup {
-    font-size: 18px;
-  }
-}
+ @media (max-width: 464px) {
+  .carousel-best-pris {
+    bottom: -25px;
+    right: 100px;
+    }
+ }
 
 .react-multiple-carousel__arrow--left {
-  margin: 0 0 0 -10px;
+  margin: 0 0 0 -30px;
 }
 
 .react-multiple-carousel__arrow--right {
-  margin: 0 -10px 0;
+  margin: 0 -30px 0;
 }

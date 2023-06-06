@@ -5,8 +5,7 @@ import "./HomePage.css";
 
 const HomePage = () => {
   return (
- 
-      <Col className="mt-5">
+       <Col className="mt-0 d-sm-block d-none">
         <BestCar />
       </Col>
  
