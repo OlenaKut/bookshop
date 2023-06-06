@@ -1,6 +1,7 @@
 .about {
       color: var(--main-text-color);
       width: 80%;
+      font-size: 14px;
 }
 
 .about-span {
@@ -12,8 +13,8 @@
   }
 
 .about-h4 {
-    color: var(--branding-color)
-}
+    color: var(--branding-color);
+    }
 
 .about-div {
     background-color: rgb(235, 250, 254);
@@ -32,6 +33,8 @@
 .about-image-link {
     width: 20%;
 }
+
+
 @media (max-width: 1200px) {
 
 .about-image {

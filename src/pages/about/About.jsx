@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import "./About.css";
+import AboutAccordion from "./AboutAccordion"
 
 const About = () => {
   return (
@@ -43,7 +44,7 @@ const About = () => {
             <p>
               <span className="fw-bold">
                 Every purchase on the site financially supports independent
-                bookstores.
+                bookstores.{" "}
               </span>
               Our platform gives independent bookstores tools to compete online
               and financial support to help them maintain their presence in
@@ -57,7 +58,7 @@ const About = () => {
           bookstores.
         </div>
         <div className="mb-5">
-          <h1 className="mb-2">Our Mission</h1>
+          <h1 className="mb-2 fw-bolder">Our Mission</h1>
           <h4 className="mb-4">(and where our profits go)</h4>
           <div className="d-xl-flex d-inline text-start mt-4">
             <img
@@ -154,6 +155,11 @@ const About = () => {
             Amazon Empire.”
           </h5>
           <img src="images/about-logo.png" alt="Logo" className="w-25" />
+        </div>
+
+        <div>
+          <h2 className="fw-bolder">F.A.Q.</h2>
+          <AboutAccordion/>
         </div>
       </Container>
     </Col>
