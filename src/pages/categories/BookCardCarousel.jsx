@@ -6,9 +6,6 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-modal";
 import { BookContext } from "../../BookContext";
 import "../pageHome/components/CarouselBest.css";
-import Carousel from "better-react-carousel";
-import Container from "react-bootstrap/Container";
-
 
 const customStyles = {
   content: {
@@ -148,45 +145,27 @@ export default function BookCardCarousel({
   };
 
     return (
-        <div>
-        <Carousel
-        cols-md={2}
-        cols-xl={3}
-        cols={4}
-        rows={1}
-        gap={12}
-        loop
-        autoplay={4000}
-        mobileBreakpoint={768}
-        className="carousel-best m-auto text-center"
-        >
-     <Carousel.Item key={id} className="m-5 m-auto">
-                <div className="carousel-best-container"  onClick={handleClick}>
-                  <img
-                    src={image}
-                    alt={name}
-                    className="carousel-best-img m-auto d-flex justify-content-between text-center mb-3"
-                  />
-
-                  <p className="carousel-best-pris">
-                    ${pris}
-                    <sup className="carousel-best-pris-sup m-1"  onClick={() => context.addToCart(generateBookData())}>
-                      {prisSup}
-                    </sup>
-                  </p>
-                </div>
-                <div className="m-auto text-center">
-                  <h5 className="carousel-best-author mx-4 text-decoration-none">
-                    {name}
-                  </h5>
-                  <h5 className="card-author fs-6 fst-italic text-decoration-none">
-                    by {author}
-                  </h5>
-                </div>
-            </Carousel.Item>
+      <div className="mb-4">
+       <div className="carousel-best-container" key={id}>
+          <img
+          src={image}
+          alt={name}
+          className="carousel-best-img m-auto d-flex justify-content-between text-center mb-3 pe-auto"
+          onClick={handleClick}
+          />
+          <p className="carousel-best-pris" onClick={() => context.addToCart(generateBookData())}>
+          ${pris}
+          <sup className="carousel-best-pris-sup m-1">
+          {prisSup}
+          </sup>
+          </p>
+          </div>
+          <div className="m-auto text-center"  key={id}>
+          <h5 className="carousel-best-author mx-4 text-decoration-none">{name}</h5>
+          <h5 className="card-author fs-6 fst-italic text-decoration-none">by {author}</h5>
+          </div>
             
-        </Carousel>
-            {ModalCard()}
-            </div>
-                );
+        {ModalCard()}
+     </div>
+ );
 }

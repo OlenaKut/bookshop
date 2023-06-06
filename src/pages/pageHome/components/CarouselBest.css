@@ -12,7 +12,7 @@
 .carousel-best-container {
   position: relative;
   text-align: center;
-}
+ }
 
 .carousel-best-img {
   width: 250px;
@@ -103,14 +103,24 @@
     width: 250px;
     height: 350px;
   }
+  
   .carousel-best-pris {
-    bottom: -40px;
+    bottom: 140px;
     right: 7px;
     padding: 22px 5px;
     font-size: 24px;
+   
   }
 
   .carousel-best-pris-sup {
     font-size: 18px;
   }
+}
+
+.react-multiple-carousel__arrow--left {
+  margin: 0 0 0 -10px;
+}
+
+.react-multiple-carousel__arrow--right {
+  margin: 0 -10px 0;
 }

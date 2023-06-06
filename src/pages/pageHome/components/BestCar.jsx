@@ -1,14 +1,16 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+//import Row from "react-bootstrap/Row";
 import bestcellers from "../../pageHome/components/data/BestcellersData";
 import BookCardCarousel from "../../categories/BookCardCarousel";
 import Container from "react-bootstrap/Container";
-import Carousel from "better-react-carousel";
+//import Carousel from "better-react-carousel";
 import "../components/CarouselBest.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 
-const CarouselBestcellers = ({ eachBook }) => {
+const BestCar = ({ eachBook }) => {
   function renderBook(_props) {
     return bestcellers.map((eachBook) => {
       return (
@@ -32,30 +34,58 @@ const CarouselBestcellers = ({ eachBook }) => {
         />
       );
     });
+}
+
+const responsive = {
+   superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+    slidesToSlide: 3 // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3,
+    slidesToSlide: 3 // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1 // optional, default to 1.
   }
+};
   return (
-    <Col md={9} xl={10} className="m-auto pb-5 pt-5">
-     
+    <Col className="pb-5 pt-5">
       <Container>
       <div  className="m-auto mb-5 p-0">
       <h1 className="mx-5 mt-5 carousel-best-title">Best Sellers</h1>
       <hr className="carousel-best-line mb-5" />
       </div>
-      
-        <Carousel
-        cols={4}
-        rows={1}
-        gap={12}
-        loop
-        autoplay={4000}
-        mobileBreakpoint={768}
-          className="carousel-best m-auto text-center">
-          <Carousel.Item>
-            {renderBook()}
-          </Carousel.Item>
-        </Carousel>
-       </Container>
-     </Col>
+              
+  <Carousel
+  swipeable={false}
+  draggable={false}
+  showDots={true}
+  responsive={responsive}
+  ssr={true} // means to render carousel on server-side.
+  infinite={true}
+  autoPlaySpeed={3000}
+  keyBoardControl={true}
+  customTransition="all .5"
+  transitionDuration={500}
+  containerClass="carousel-container"
+  removeArrowOnDeviceType={"mobile"}
+  //autoPlay={true}
+  dotListClass="custom-dot-list-style"
+  itemClass="carousel-item-padding-40-px"
+>
+   {renderBook()}
+</Carousel>
+</Container>
+</Col>
   );
 };
-export default CarouselBestcellers;
+export default BestCar;
