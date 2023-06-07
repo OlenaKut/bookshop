@@ -16,7 +16,7 @@ const Footer = () => {
     if (showContactForm) {
       return;
     }
-  }, [buttonClick]);
+  }, [showContactForm]);
 
   const handleClick = () => {
     setShowContactForm(!showContactForm);
