@@ -15,7 +15,7 @@ function NavMenu() {
     if (showDiv) {
       return;
     }
-  }, [buttonClick]);
+  }, [showDiv]);
 
   const handleClick = () => {
     setShowDiv(!showDiv);
