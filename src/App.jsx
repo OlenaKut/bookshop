@@ -25,9 +25,14 @@ import posthog from "posthog-js";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+//import Login from "./authorisation/Singin";
+//import Profile from "./authorisation/Profile";
+//import { AuthProvider } from "./authorisation/AuthProvider";
+
 const App = () => {
   return (
     <BookContextProvider>
+ 
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Container fluid className="App">
           <Header />
@@ -55,6 +60,8 @@ const App = () => {
               <Route exact path="/promotions" element={<Promotions />} />
               <Route exact path="/about" element={<About />} />
               <Route exact path="/basket" element={<Basket />} />
+
+          
             </Routes>
             <Routes>
               <Route exact path="/" element={<HomePage />} />
@@ -69,7 +76,7 @@ const App = () => {
           <Footer />
         </Container>
       </BrowserRouter>
-    </BookContextProvider>
+     </BookContextProvider>
   );
 };
 

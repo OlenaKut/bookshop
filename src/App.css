@@ -8,4 +8,5 @@
 .App {
   margin-top: 30px;
   font-family: var(--heading-font-family);
+  font-size: 12px;
 }

@@ -15,8 +15,7 @@ const Basket = () => {
 
   function openModal() {
     setShowBasket(true);
-    
-  }
+      }
 
   function closeModal() {
     setShowBasket(false);
@@ -33,7 +32,7 @@ const Basket = () => {
       bottom: "5%",
       padding: "3%",
       transition: "500ms",
-        },
+    },
   };
 
   const totalCartAmount = context.state.cart
@@ -47,14 +46,13 @@ const Basket = () => {
 
   return (
     <Col lg="3" xxl="2">
-   
-      <p>
+         <p>
         <i class="bi bi-cart-check ps-2 pe-2 fs-5"></i>
         Shopping Cart ({totalCartCount}),
         <Button variant="link" rel="noopener noreferrer" onClick={openModal}>
           $({totalCartAmount})
         </Button>
-           <Modal
+          <Modal
           isOpen={showBasket}
           onRequestClose={closeModal}
           style={customStyles}
