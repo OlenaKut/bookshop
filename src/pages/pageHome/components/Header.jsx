@@ -2,31 +2,24 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
+//import Button from "react-bootstrap/Button";
 import Basket from "./Basket";
 import SearchNew from "../../search/SearchNew";
+import Login from "../../../authorisation/Login";
+import Dashboard from "../../../authorisation/Dashboard";
+
 
 const Header = () => {
   return (
     <Container className="header mb-4">
       <Row md="auto">
-        <Col xxl="8" lg="6">
+        <Col xxl="6" lg="6">
         <SearchNew />
         </Col>
-        <Col lg="3" xxl="2" className="login-button">
-          <p>
-            <i className="bi bi-person ps-2 pe-2 fs-5"></i>
-            Welcome,
-            <Button
-              variant="link"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Guest
-            </Button>
-          </p>
-        </Col>
+        <Col lg="4" xxl="4" className="login-button">
+            {<Login />}
+            {<Dashboard/>}
+          </Col>
         <Basket />
       </Row>
       <div>

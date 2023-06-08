@@ -25,9 +25,14 @@ import posthog from "posthog-js";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-//import Login from "./authorisation/Singin";
-//import Profile from "./authorisation/Profile";
-//import { AuthProvider } from "./authorisation/AuthProvider";
+import Login from "./authorisation/Login";
+import Register from "./authorisation/Register";
+import Reset from "./authorisation/Reset";
+import Dashboard from "./authorisation/Dashboard";
+
+
+
+
 
 const App = () => {
   return (
@@ -42,6 +47,13 @@ const App = () => {
           <Row>
             <NavMenu />
             <Routes>
+
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/reset" element={<Reset />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              
+
               <Route exact path="/" element={<Bestcellers />} />
               <Route exact path="/" element={<HomePage />} />
               <Route exact path="/cookingWine" element={<CookingWine />} />
@@ -61,6 +73,7 @@ const App = () => {
               <Route exact path="/about" element={<About />} />
               <Route exact path="/basket" element={<Basket />} />
 
+        
           
             </Routes>
             <Routes>
@@ -75,7 +88,8 @@ const App = () => {
 
           <Footer />
         </Container>
-      </BrowserRouter>
+        </BrowserRouter>
+       
      </BookContextProvider>
   );
 };

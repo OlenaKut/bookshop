@@ -15,7 +15,7 @@ const Basket = () => {
 
   function openModal() {
     setShowBasket(true);
-      }
+  }
 
   function closeModal() {
     setShowBasket(false);

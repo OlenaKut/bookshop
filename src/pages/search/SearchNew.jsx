@@ -45,7 +45,7 @@ const Search = () => {
       pris: chosenBook.pris,
     };
   }
-  //const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([]);
 
   const getProducts = () => {
     return ({
@@ -64,7 +64,7 @@ const Search = () => {
       reviews3: "default reviews3",
       authorReviews3: "default authorReviews3",
     });
-    //setProducts();
+    setProducts();
   };
 
   useEffect(() => {
