@@ -26,15 +26,29 @@ function Dashboard() {
          setName(data.name);
     } catch (err) {
       console.error(err);
-      //alert("An error occured while fetching user data");
     }
   };
 
   useEffect(() => {
+    const fetchUserName = async () => {
+    try {
+      const q = query(collection(db, "users"), where("uid", "==", user?.uid));
+      const doc = await getDocs(q);
+      const data = doc.docs[0].data();
+
+    setName(data.name);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+
+
     if (loading) return;
     if (!user) return navigate("/");
     setShow(false);
     fetchUserName();
+       // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, loading]);
 
   return (
