@@ -104,7 +104,7 @@ function NavMenu() {
                   <NavLink to="/about" onClick={handleClose}>About us</NavLink>
                 </li>
                 <li>
-                  <NavLink href="#" onClick={handleClose}>Contacts</NavLink>
+                  <NavLink to="/contact" onClick={handleClose}>Contacts</NavLink>
                 </li>
               </ul>
             </Col>

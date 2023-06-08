@@ -149,7 +149,7 @@ export default function BookCard({
       <Card
         className="card-main pt-3 ps-0 pe-0 d-flex mb-3 m-auto"
         key={id}
-        style={{ width: "20rem", maxHeight: "600px" }}
+        //style={{ width: "20rem", maxHeight: "600px" }}
       >
         <Card.Img
           onClick={handleClick}
