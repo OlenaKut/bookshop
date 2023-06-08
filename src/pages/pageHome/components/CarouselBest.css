@@ -15,8 +15,8 @@
  }
 
 .carousel-best-img {
-  width: 20%;
-  height: 25%;
+ width: 220px;
+  height: 320px;
   cursor: pointer;
 }
 
@@ -24,7 +24,7 @@
   position: absolute;
   bottom: -30px;
   right: 26px;
-  padding: 22px 5px;
+  padding: 26px 5px;
   background: var(--branding-color);
   color: white;
   border-radius: 70px;
@@ -48,13 +48,6 @@
     font-size: 44px;
   }
 
-  .carousel-best-img {
-    width: 200px;
-    height: 300px;
-  }
-  .carousel-best-pris {
-    font-size: 24px;
-  }
 }
 @media (max-width: 1200px) {
   .carousel-best-title {
