@@ -43,7 +43,7 @@ function Dashboard() {
   return (
     <>
       {user && ` Hello, ${name}`}
-      <Button variant="info" onClick={handleShow}>
+      <Button variant="link" onClick={handleShow} className="text-danger">
         LogOut
       </Button>
       

@@ -45,7 +45,7 @@ const Login = () => {
 
   return (
      <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="link" onClick={handleShow} className="text-primary">
         LogIn
       </Button>
       <Modal show={show} onHide={handleClick}>

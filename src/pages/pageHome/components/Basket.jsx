@@ -45,7 +45,7 @@ const Basket = () => {
   );
 
   return (
-    <Col lg="3" xxl="2">
+    <Col className="text-sm-end text-start">
          <p>
         <i class="bi bi-cart-check ps-2 pe-2 fs-5"></i>
         Shopping Cart ({totalCartCount}),
