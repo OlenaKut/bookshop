@@ -9,7 +9,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import "../authorisation/Login.css";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-//import Form from "react-bootstrap/Form";
+
 
 
 const Login = () => {
@@ -34,11 +34,14 @@ const Login = () => {
     if (loading) {
       setShow(false);
       return;
-   }
+      
+    }
+     setShow(false);
     if (user) {
       navigate("/");
       setShow(false);
     };
+     setShow(false);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, loading]);
 
@@ -71,8 +74,8 @@ const Login = () => {
               Login
             </button>
             <button
-              className="login__btn login__google"
-              onClick={signInWithGoogle}
+             className="register__btn register__google"
+             onClick={signInWithGoogle}
              >
               Login with Google
             </button>
@@ -80,7 +83,7 @@ const Login = () => {
               <Link to="/reset">Forgot Password</Link>
             </div>
             <div>
-              Don't have an account? <Link to="/register">Register</Link> now
+              Don't have an account?<Link to="/register">Register</Link> now
             </div>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClick}>

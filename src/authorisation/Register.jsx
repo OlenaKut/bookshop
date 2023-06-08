@@ -7,6 +7,7 @@ import {
   signInWithGoogle,
 } from "./firebase";
 import "../authorisation/Register.css";
+import Col from "react-bootstrap/Col";
 
 function Register() {
   const [email, setEmail] = useState("");
@@ -27,7 +28,7 @@ function Register() {
   }, [user, loading]);
 
   return (
-    <div className="register">
+    <Col className="register">
       <div className="register__container">
         <input
           type="text"
@@ -63,7 +64,7 @@ function Register() {
           Already have an account? <Link to="/">Login</Link> now.
         </div>
       </div>
-    </div>
+    </Col>
   );
 }
 

@@ -4,12 +4,16 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { auth, sendPasswordReset } from "./firebase";
 import "./Reset.css";
+import Col from "react-bootstrap/Col";
+
 
 
 function Reset() {
   const [email, setEmail] = useState("");
   const [user, loading] = useAuthState(auth);
+  
   const navigate = useNavigate();
+
 
     useEffect(() => {
     if (loading) return;
@@ -19,7 +23,7 @@ function Reset() {
 
 
   return (
-    <div className="reset">
+   <Col className="reset">
       <div className="reset__container">
         <input
           type="text"
@@ -36,7 +40,8 @@ function Reset() {
           Don't have an account? <Link to="/register">Register</Link> now.
         </div>
       </div>
-    </div>
+      </Col>
+   
   );
 }
 

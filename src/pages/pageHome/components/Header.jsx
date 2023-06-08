@@ -15,8 +15,8 @@ const Header = () => {
       <Row md="auto">
       <Col lg="6" className="mb-3">
             {<Login />}
-            {<Dashboard/>}
-      </Col>
+          {<Dashboard />}
+               </Col>
        <Col lg="6">
           <Basket />
         </Col>
