@@ -6,10 +6,22 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./NavMenu.css";
 import { NavLink } from "react-router-dom";
 
+
 function NavMenu() {
   const [showDiv, setShowDiv] = useState(false);
   const [buttonClick, setButtonClick] = useState(0);
   const expand = "md";
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => {
+    setShow(false);
+    //setButtonClick(buttonClick + 1);
+  };
+
+  const handleShow = () => setShow(true);
+
+
 
   useEffect(() => {
     if (showDiv) {
@@ -22,24 +34,30 @@ function NavMenu() {
     setButtonClick(buttonClick + 1);
   };
 
+  
+
   return (
     <Col xl={2} md={3}>
       <Navbar key={expand} expand={expand}>
         <Navbar.Toggle
           aria-controls={`offcanvasNavbar-expand-${expand}`}
           className="toggle"
+          onClick={handleShow} 
         />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
           aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
           placement="end"
+          className="offcanvas"
+          data-bs-dismiss="offcanvas"
+          show={show} onHide={handleClose}
         >
           <Offcanvas.Header closeButton></Offcanvas.Header>
           <Offcanvas.Body>
             <Col className="pt-3">
               <ul className="vertical-menu">
                 <li>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/" onClick={handleClose}>Home</NavLink>
                 </li>
                 <li>
                   <p class="mb-0" onClick={handleClick}>
@@ -48,45 +66,45 @@ function NavMenu() {
                   {showDiv && (
                     <ul className="submenu" style={{ display: "block" }}>
                       <li>
-                        <NavLink to="/cookingWine">Cooking&Wine</NavLink>
+                        <NavLink to="/cookingWine" onClick={handleClose}>Cooking&Wine</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/kidsBooks">Kids books</NavLink>
+                        <NavLink to="/kidsBooks" onClick={handleClose}>Kids books</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/fantasy">Fantasy</NavLink>
+                        <NavLink to="/fantasy" onClick={handleClose}>Fantasy</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/historicalFiction">
+                        <NavLink to="/historicalFiction" onClick={handleClose}>
                           Historical fiction
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="/comics">Comics</NavLink>
+                        <NavLink to="/comics" onClick={handleClose}>Comics</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/horror">Horror</NavLink>
+                        <NavLink to="/horror" onClick={handleClose}>Horror</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/poetry">Poetry</NavLink>
+                        <NavLink to="/poetry" onClick={handleClose}>Poetry</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/novels">Novels</NavLink>
+                        <NavLink to="/novels" onClick={handleClose}>Novels</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/thrillers">Thrillers&Crime</NavLink>
+                        <NavLink to="/thrillers" onClick={handleClose}>Thrillers&Crime</NavLink>
                       </li>
                     </ul>
                   )}
                 </li>
                 <li>
-                  <NavLink to="/promotions">Promotions</NavLink>
+                  <NavLink to="/promotions" onClick={handleClose}>Promotions</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about">About us</NavLink>
+                  <NavLink to="/about" onClick={handleClose}>About us</NavLink>
                 </li>
                 <li>
-                  <NavLink href="#">Contacts</NavLink>
+                  <NavLink href="#" onClick={handleClose}>Contacts</NavLink>
                 </li>
               </ul>
             </Col>

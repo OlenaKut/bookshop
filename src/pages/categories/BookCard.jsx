@@ -78,7 +78,7 @@ export default function BookCard({
                 alt={name}
                 className="img-hover"
               />
-              <h3 className="mt-4 text-center">Prise: ${pris.toFixed(2)}</h3>
+              <h3 className="mt-4 text-center">Prise: ${pris}</h3>
               <Button
                 variant="link"
                 className="buy-button fw-bold mt-3 w-100"
@@ -186,7 +186,7 @@ export default function BookCard({
             className="price-button fw-bold"
             onClick={() => context.addToCart(generateBookData())}
           >
-            ${pris.toFixed(2)}
+            ${pris}
           </Button>
         </ButtonGroup>
       </Card>
