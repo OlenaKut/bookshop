@@ -23,6 +23,7 @@ function Register() {
   useEffect(() => {
     if (loading) return;
     if (user) navigate("/");
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, loading]);
 
   return (
