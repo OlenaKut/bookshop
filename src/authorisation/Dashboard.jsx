@@ -31,9 +31,11 @@ function Dashboard() {
     }
   };
 
-
-
-    if (loading) return;
+  if (loading) {
+      setShow(false);
+      return;
+    }
+    setShow(false);
     if (!user) return navigate("/");
     setShow(false);
     fetchUserName();
